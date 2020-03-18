@@ -241,6 +241,8 @@ Using the claim and the fact that $f$ is holomorphic on $\CC$ and thus has no po
 Proof of Claim
 
 $\gamma_2$:
+For $R\gg 0$, we have $f(z) \sim z^$.
+Along $\gamma_2$, the argument of $z$ ranges from $0$ to $\frac \pi 2$, and thus the argument of $z^4$ ranges from $0$ to $4\cdot \frac \pi 2 = 2\pi$.
 
 
 ## 13
