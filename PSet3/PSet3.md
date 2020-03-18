@@ -224,7 +224,7 @@ By the argument principle, we have
 \Delta_\Gamma \arg f(z) = 2\pi\qty{ Z - P }
 ,\end{align*}
 
-where $Z$ is the number of zeros of $f$ in the region $R$ enclosed by $\Gamma$ and $P$ is the number of poles in $R$.
+where $Z$ is the number of zeros of $f$ in the region $\Omega$ enclosed by $\Gamma$ and $P$ is the number of poles in $\Omega$.
 
 Claim
 :   \hfill
