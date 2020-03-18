@@ -217,7 +217,7 @@ Let $f(z) = z^4 +2z^3 -2z + 10$, and consider the following contour:
 
 ![Image](figures/2020-03-18-11:02.png)\
 
-Since polynomials are holomorphic on $\CC$, by the argument principle it suffices to show that $f$ does not vanish on $\gamma_i$
+Since polynomials are holomorphic on $\CC$, by the argument principle it suffices to show that $f$ does not vanish on $\Gamma$ and $\Delta_\Gamma f(z) = 1$.
 
 ## 13
 
