@@ -232,6 +232,7 @@ Claim
     - $\Delta_{\gamma_2}\arg f(z) = 2\pi$
     - $\Delta_{\gamma_3}\arg f(z) = 0$
 
+Using the claim and the fact that $f$ is holomorphic on $\CC$ and thus has no poles, we obtain $Z = 1$.
 
 ## 13
 
