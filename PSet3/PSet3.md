@@ -238,6 +238,11 @@ Using the claim and the fact that $f$ is holomorphic on $\CC$ and thus has no po
 \Delta_\Gamma \arg f(z) = 2\pi = 2\pi \qty{Z - 0} \implies Z = 1
 .\end{align*}
 
+Proof of Claim
+
+$\gamma_2$:
+
+
 ## 13
 
 Problem
