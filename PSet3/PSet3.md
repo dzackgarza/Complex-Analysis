@@ -250,6 +250,15 @@ $\gamma_2$:
 For $R\gg 0$, we have $f(z) \sim z^4$.
 Along $\gamma_2$, the argument of $z$ ranges from $0$ to $\frac \pi 2$, and thus the argument of $z^4$ ranges from $0$ to $4\cdot \frac \pi 2 = 2\pi$.
 
+$\gamma_1$:
+By cases, for $z\in \RR$,
+
+- If $\abs{z} > 1$, then $z^3 > z$ and so
+  \begin{align*}
+  f(z) = (z^4 +10) + (2z^3 - 2z) > (z^4 + 10) + (2z - 2z) = z^4 +10 > 0
+  ,\end{align*}
+  so $f$ is strictly positive and does not change argument on $(1,\infty)$.
+
 
 ## 13
 
