@@ -230,6 +230,8 @@ Claim
 :   \hfill
     - $\Delta_{\gamma_1}\arg f(z) = 0$
     - $\Delta_{\gamma_2}\arg f(z) = 2\pi$
+    - $\Delta_{\gamma_3}\arg f(z) = 0$
+
 
 ## 13
 
