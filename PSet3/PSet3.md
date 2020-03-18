@@ -91,7 +91,7 @@ f(z)
 &= \sum_{n\geq 0} z^{2n} + \sum_{n\geq 0} \qty{\frac 1 3}^{n+1} z^n \\
 .\end{align*}
 
-Noting that the first term converges for $\abs{z^2} < 1$ and the second for $\abs{\frac z 3} < 1 \iff \abs{z} < 3$, intersecting these regions yields convergence on $\abs{z} < 1$.
+Noting $\abs{z^2} < 1$ implies then $\abs{z} < 1$, and that the first term converges for $\abs{z^2} < 1$ and the second for $\abs{\frac z 3} < 1 \iff \abs{z} < 3$, this expansion converges to $f$ on the region $\abs{z} < 1$.
 
 **Region 2:**
 Take the following expansion:
