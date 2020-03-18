@@ -228,6 +228,7 @@ where $Z$ is the number of zeros of $f$ in the region $\Omega$ enclosed by $\Gam
 
 Claim
 :   \hfill
+    - $f$ has no roots on the coordinmate axes.
     - $\Delta_{\gamma_1}\arg f(z) = 0$
     - $\Delta_{\gamma_2}\arg f(z) = 2\pi$
     - $\Delta_{\gamma_3}\arg f(z) = 0$
@@ -237,6 +238,9 @@ Using the claim and the fact that $f$ is holomorphic on $\CC$ and thus has no po
 \begin{align*}
 \Delta_\Gamma \arg f(z) = 2\pi = 2\pi \qty{Z - 0} \implies Z = 1
 .\end{align*}
+
+Thus $f$ has one pole in the first quadrant.
+
 
 Proof of Claim
 
