@@ -104,7 +104,7 @@ f(z)
 &= -\sum_{n\geq 2}\frac{1}{z^{2n}}  + \sum_{n\geq 0} \qty{\frac 1 3}^{n+1} z^n \\
 .\end{align*}
 
-By construction, the first term converges for $\abs{1}{z^2} < 1 \iff \abs{z} > 1$ and the second for $\abs{z} < 3$.
+By construction, the first term converges for $\abs\frac{1}{z^2} < 1 \iff \abs{z} > 1$ and the second for $\abs{z} < 3$.
 
 **Region 3:**
 Take the following expansion:
