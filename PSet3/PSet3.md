@@ -247,7 +247,7 @@ By symmetry, $f$ will have one root in quadrant 2, and thus 1 on quadrant 3, yie
 Proof of Claim
 
 $\gamma_2$:
-For $R\gg 0$, we have $f(z) \sim z^$.
+For $R\gg 0$, we have $f(z) \sim z^4$.
 Along $\gamma_2$, the argument of $z$ ranges from $0$ to $\frac \pi 2$, and thus the argument of $z^4$ ranges from $0$ to $4\cdot \frac \pi 2 = 2\pi$.
 
 
