@@ -239,7 +239,8 @@ Using the claim and the fact that $f$ is holomorphic on $\CC$ and thus has no po
 \Delta_\Gamma \arg f(z) = 2\pi = 2\pi \qty{Z - 0} \implies Z = 1
 .\end{align*}
 
-Thus $f$ has one pole in the first quadrant.
+Thus $f$ has one root $r_1$ in the first quadrant.
+Since $r_1$ is not a real root, $\bar r_1$ in quadrant 4 is also a root.
 
 
 Proof of Claim
