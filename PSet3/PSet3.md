@@ -226,6 +226,11 @@ By the argument principle, we have
 
 where $Z$ is the number of zeros of $f$ in the region $R$ enclosed by $\Gamma$ and $P$ is the number of poles in $R$.
 
+Claim
+:   \hfill
+    - $\Delta_{\gamma_1}\arg f(z) = 0$
+    - $\Delta_{\gamma_2}\arg f(z) = 2\pi$
+
 ## 13
 
 Problem
