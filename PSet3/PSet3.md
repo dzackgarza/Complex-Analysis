@@ -259,7 +259,7 @@ By cases, for $z\in \RR$,
   ,\end{align*}
   so $f$ is strictly positive and does not change argument on $(1,\infty)$.
 
-- If $\abs{z} \leq 1$
+- If $\abs{z} \leq 1$,
 
 
 ## 13
