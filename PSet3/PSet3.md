@@ -123,6 +123,8 @@ f(z)
 
 By construction, this converges on $\theset{\abs z^2 > 1} \intersect \theset{\abs z > 3} = \theset{\abs z > 3}$.
 
+$\qed$
+
 
 ## 3
 
