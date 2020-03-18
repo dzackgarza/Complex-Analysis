@@ -7,10 +7,10 @@ title: Complex Analysis Problem Set 3
 ## 1
 
 Problem
-: Prove that if $f$ has two Laurent series expansions, 
+: Prove that if $f$ has two Laurent series expansions,
   $$
   \begin{aligned} f(z) = \sum c_n(z-a)^n \quad\text{and}\quad f(z) = \sum c_n'(z-a)^n\end{aligned}
-  $$ 
+  $$
   then $c_n = c_n'$.
 
 ### Solution
@@ -21,9 +21,9 @@ Under this assumption, let $D_\eps(a)$ be a disc about $a$ and $\gamma$ be any c
 Then for each $n$, we can apply the formula
 
 \begin{align*}
-c_n 
-&= \frac 1 {2\pi i } \int_\gamma \frac{f(\xi)}{\qty{\xi - a}^{n+1}} \\
-&= \frac 1 {2\pi i } \int_\gamma \frac{0}{\qty{\xi - a}^{n+1}} \quad\text{by assumption} \\
+c_n
+&= \frac 1 {2\pi i } \int_\gamma \frac{f(\xi)}{\qty{\xi - a}^{n+1}} ~d\xi \\
+&= \frac 1 {2\pi i } \int_\gamma \frac{0}{\qty{\xi - a}^{n+1}} ~d\xi \quad\text{by assumption} \\
 &= 0
 ,\end{align*}
 
@@ -34,7 +34,7 @@ $\qed$
 ## 2
 
 Problem
-: Find Laurent series expansions of 
+: Find Laurent series expansions of
   $$\begin{aligned}\frac{1}{1-z^2} + \frac{1}{3-z}\end{aligned}$$
   How many such expansions are there? In what domains are each valid?
 
@@ -84,7 +84,7 @@ Note that $f$ has poles at $z=-1, 1, 3$, all with multiplicity 1, and so there a
 Take the following expansion:
 
 \begin{align*}
-f(z) 
+f(z)
 &= \frac{1}{1-z^2} + \frac{1}{3-z} \\
 &= \sum_{n\geq 0} z^{2n} + \frac 1 3 \qty{ \frac{1}{1 - \frac 3 z}  } \\
 &= \sum_{n\geq 0} z^{2n} + \frac 1 3 \sum_{n\geq 0} \qty{\frac 1 3}^n z^n \\
@@ -97,7 +97,7 @@ Noting that the first term converges for $\abs{z^2} < 1$ and the second for $\ab
 Take the following expansion:
 
 \begin{align*}
-f(z) 
+f(z)
 &= \frac{1}{1-z^2} + \frac{1}{3-z} \\
 &= -\frac{1}{z^2} \qty{\frac{1}{1 - \frac{1}{z^2}}} - \frac 1 3 \qty{ \frac{1}{1 - \frac z 3}  }  \\
 &=-\frac 1 {z^2} \sum_{n\geq 0} z^{-2n} + \sum_{n\geq 0} \qty{\frac 1 3}^{n+1} z^n \\
@@ -110,7 +110,7 @@ By construction, the first term converges for $\abs{1}{z^2} < 1 \iff \abs{z} > 1
 Take the following expansion:
 
 \begin{align*}
-f(z) 
+f(z)
 &= \frac{1}{1-z^2} + \frac{1}{3-z} \\
 &= -\frac{1}{z^2} \qty{\frac{1}{1 - \frac{1}{z^2}}} - \frac 1 z \qty{\frac 1 {1 - \frac 3 z}} \\
 &= - \frac 1 {z^2} \sum_{n\geq 0} \frac{1}{z^{2n}} - \frac 1 z \sum_{n\geq 0}3^n \frac{1}{z^n} \\
@@ -126,7 +126,7 @@ By construction, this converges on $\theset{\abs z^2 > 1} \intersect \theset{\ab
 
 Problem
 : Let $P, Q$ be polynomials with no common zeros. Assume $a$ is a root of
-$Q$. 
+$Q$.
   Find the principal part of $P/Q$ at $z=a$ in terms of $P$ and $Q$ if $a$ is (1) a simple root, and (2) a double root.
 
 ### Solution
@@ -151,7 +151,7 @@ It suffices to show that $z_0 = 0$ is neither a pole nor a removable singularity
 
 2. $\abs{f(z)}$ is not bounded on any neighborhood $D_\eps(z_0)$.
 
-The first property follows because if $f$ is analytic, 
+The first property follows because if $f$ is analytic,
 
 ## 5
 
@@ -162,8 +162,8 @@ $f$ is a polynomial.
 ## 6
 
 Problem
-: 
-  a. Show that 
+:
+  a. Show that
   $$\begin{aligned}\int_0^{2\pi} \log\abs{1 - e^{i\theta}}~d\theta = 0\end{aligned}$$
   b. Show that this identity is equivalent to SS 3.8.9.
 
@@ -177,7 +177,7 @@ Problem
 
 Problem
 :   Prove the fundamental theorem of Algebra using
-   
+
     a.  Rouche's Theorem.
     b. The maximum modulus principle.
 
@@ -192,7 +192,7 @@ $D$ with interior in $D$.
 ## 10
 
 Problem
-: For $a> 0$, evaluate 
+: For $a> 0$, evaluate
   $$\begin{aligned} \int_0^{\pi/2} \frac{d\theta}{a + \sin^2 \theta}\end{aligned}$$
 
 ## 11
@@ -226,9 +226,9 @@ on its closure $\overline \Omega$.
 
 Problem
 :   Using Euler's formula
-    $$\sin(\pi z) = \frac 1 {2i}( e^{i\pi z} - e^{-i\pi z} )$$ 
-    show that the complex zeros of $\sin(\pi z)$ are exactly the integers, each of order one. 
-    
+    $$\sin(\pi z) = \frac 1 {2i}( e^{i\pi z} - e^{-i\pi z} )$$
+    show that the complex zeros of $\sin(\pi z)$ are exactly the integers, each of order one.
+
     Calculate the residue of $\frac 1 {\sin(\pi z)}$ at $z=n\in \mathbb{Z}$.
 
 ## S&S 3.8.2
@@ -240,7 +240,7 @@ the poles of the integrand?
 ## S&S 3.8.4
 
 Problem
-: Show that 
+: Show that
   $$\begin{aligned}\int_{\mathbb R} \frac{x\sin x}{x^2 + a^2} = \frac{\pi e^{-a}}{a} \quad a > 0\end{aligned}$$
 
 ## S&S 3.8.5
@@ -255,7 +255,7 @@ Problem
 ## S&S 3.8.6
 
 Problem
-: Show that 
+: Show that
   $$
   \begin{aligned}\int_{\mathbb R} \frac{dx}{(1+x^2)^{n+1}} = \frac{1\cdot 3\cdot \cdots (2n-1)\pi }{2\cdot 4\cdots (2n}\end{aligned}
   $$
@@ -263,9 +263,9 @@ Problem
 ## S&S 3.8.7
 
 Problem
-: Show that for $a > 1$, 
+: Show that for $a > 1$,
   $$
-  \begin{aligned}\int_0^{2\pi} \frac{d\theta}{(a+\cos \theta)^2} = 
+  \begin{aligned}\int_0^{2\pi} \frac{d\theta}{(a+\cos \theta)^2} =
     \frac{2\pi a}{(a^2-1)^{3/2}}\end{aligned}
   $$
 
@@ -282,14 +282,14 @@ Problem
 ## S&S 3.8.9
 
 Problem
-: Show that 
+: Show that
   $$
   \begin{aligned}\int_0^1 \log(\sin \pi x) ~dx = -\log 2\end{aligned}$$
 
 ## S&S 3.8.10
 
 Problem
-: Show that if $a> 0$ 
+: Show that if $a> 0$
   $$
   \begin{aligned} \int_0^{\infty} \frac{\log x}{x^2 + a^2} ~dx =\frac{\pi \log a}{2a}\end{aligned}
   $$
@@ -317,7 +317,7 @@ the following problems:
 
     ### c
 
-    Let $w_1, \cdots, w_n$ be points on $S^1 \subset\mathbb{C}$. 
+    Let $w_1, \cdots, w_n$ be points on $S^1 \subset\mathbb{C}$.
     Show that there exists a point $z \in S^1$ such that
     $$
     \prod_{i=1}^n \abs{z-w_i} \geq 1.
