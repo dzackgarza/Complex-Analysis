@@ -13,6 +13,7 @@ Problem
   then $c_n = c_n'$.
 
 ### Solution
+
 By taking the difference of two such expansions, it suffices to show that if $f$ is identically zero and $f(z) = \sum_{n=-\infty}^\infty c_n (z-a)^n$ about some point $a$, then $c_n = 0$ for all $n$.
 
 Under this assumption, let $D_\eps(a)$ be a disc about $a$ and $\gamma$ be any contoured contained in its interior.
