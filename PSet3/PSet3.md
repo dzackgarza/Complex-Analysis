@@ -241,6 +241,7 @@ Using the claim and the fact that $f$ is holomorphic on $\CC$ and thus has no po
 
 Thus $f$ has one root $r_1$ in the first quadrant.
 Since $r_1$ is not a real root, $\bar r_1$ in quadrant 4 is also a root.
+By symmetry, $f$ will have one root in quadrant 2, and thus 1 on quadrant 3, yielding exactly one root in each quadrant.
 
 
 Proof of Claim
