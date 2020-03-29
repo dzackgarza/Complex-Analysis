@@ -297,6 +297,7 @@ on its closure $\overline \Omega$.
 
 By the maximum modulus principle applied to $f$ in $\bar \Omega$, we know that $\max \abs{f} = M$.
 Similarly, the maximum modulus principle applied to $\frac 1 f$ in $\bar{\Omega^c}$ since $f$ is nonzero in $\Omega$, and we can conclude that $\min \abs{f} = M$ as well.
+From this we find that $f(z) = M e^{g(z)}$ for some function $g: \CC \to \RR$; it remains to show that $g$ is constant.
 
 # Stein and Shakarchi
 
