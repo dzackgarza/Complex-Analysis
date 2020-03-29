@@ -215,9 +215,14 @@ Then $g(z) \definedas 1/f(z)$ is non-constant and holomorphic on $\CC$.
 
 Using the fact that $\lim_{z\to\infty} f(z) = \infty$ for any polynomial $f$, pick $r$ large enough such that
 $$
-z\in \CC\setminus D_r(0) \implies \abs{f(z)} > \abs{f(0)}
-.$$
-Then $\abs{1/f(z)} < \abs{\frac 1 / f(0)}$ for every such $z$.
+z\in \CC\setminus \bar{D_r}(0) \implies \abs{f(z)} > \abs{f(0)}
+$$
+where $D_r(0)$ is a closed disc of radius $r$ about $z=0$.
+Then $\abs{1/f(z)} < \abs{\frac 1 f(0)}$ for every such $z$.
+
+
+
+
 
 
 
