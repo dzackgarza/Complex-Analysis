@@ -229,7 +229,11 @@ $$
 f(z) \definedas \frac{z^{\alpha-1}}{z^3 + 1} \definedas {P(z) \over Q(z)}
 ,$$
 we find that only $z=r_2$ will contribute a term to $\int_\Gamma f$.
-Computing the residue here, noting that each pole is simple of order 1, we have
+Noting that each pole is simple of order 1, we have
+$$
+\res_{z = r_i} = {P(r_i) \over Q'(r_i)} = {r_i^{\alpha-1} \over 3r_i^2} = {1 \over 3} r_i^{\alpha - 3}
+$$
+We thus have
 \begin{align*}
 \res_{z = r_2} f(z)
 &= {P(r_2) \over Q'(r_2)} = { r_2^{\alpha-1} \over 3r_2^2 }
