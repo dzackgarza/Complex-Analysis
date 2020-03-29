@@ -220,9 +220,18 @@ Problem
 : For $a> 0$, evaluate
   $$\begin{aligned} \int_0^{\pi/2} \frac{d\theta}{a + \sin^2 \theta}\end{aligned}$$
 
-$$
-\left[\left(-i \, a + i \, \sqrt{a^{2} - 1}, 1\right), \left(-i \, a - i \, \sqrt{a^{2} - 1}, 1\right)\right]
-$$
+We have
+\begin{align*}
+\int_0^{\pi/2} \frac{1}{1 + \sin^2(\theta)} ~d\theta
+&= \int_{\gamma_1} \frac{1}{a + \qty{\frac{z - z\inv}{2i}}^2} ~\frac{-i~dz}{z} \quad\text{where $\gamma_1$ is $\frac 1 4$ of the unit circle $S^1$}\\
+&= -i \int_{\gamma_1} \frac 1 z \qty{\frac{1}{a + \qty{-\frac 1 4}\qty{z^2 -2 + z^{-2}}  }  } ~dz\\
+&= 4i \int_{\gamma_1} \frac 1 z \qty{ \frac{1}{z^2 - (2 + 4a) + z^{-2}} } ~dz\\
+&= 4i \int_{\gamma_1} \frac{z}{z^4 - \qty{2+4a}z^2 + 1} ~dz \\
+&= i \oint_{S^1} \frac{z}{z^4 - \qty{2+4a}z^2 + 1} ~dz \\
+&\definedas i \oint_{S^1} f_a(z) ~dz
+,\end{align*}
+
+which we can now compute by the residue theorem.
 
 ## 11
 
