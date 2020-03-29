@@ -191,22 +191,12 @@ Problem
 :   Let $f$ be analytic in a region $D$ and $\gamma$ a rectifiable curve in
 $D$ with interior in $D$.
 
-    Prove that if $f(z)$ is real for all $z\in \gamma$, the $f$ is constant.
+    Prove that if $f(z)$ is real for all $z\in \gamma$, then $f$ is constant.
 
 ### Solution
 
-Since $f$ is analytic in $D$ (wlog assuming $0\in D$ by translation), take its series expansion $f(z) = c_0 + c_1 z + \cdots$ for $z\in D$.
-
-For $z \in \gamma$, write $z = x + iy$.
-Then
-\begin{align*}
-f(z) &= f(x+iy) \\
-&= c_0 + c_1(x+iy) + \cdots \\
-&= c_0 + c_1 x + i c_1 y + \cdots
-&\subset \RR \quad\text{by assumption}
-,\end{align*}
-
-and so we must have $c_1 y = 0$.
+This follows directly from the open mapping theorem.
+If $f$ is analytic on $D$, it is also holomorphic on $D$
 
 ## 10
 
