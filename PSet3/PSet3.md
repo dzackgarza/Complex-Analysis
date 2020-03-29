@@ -238,7 +238,8 @@ We thus have
 \begin{align*}
 \res_{z = r_2} f(z)
 &= \frac 1 3 { e^{i \pi (\alpha - 3) \over 3} } \\
-\implies \int_\Gamma f(z) ~dz &= {2\pi i \over 3} { e^{i \pi (\alpha - 3) \over 3} }
+\implies \int_\Gamma f(z) ~dz
+&= {2\pi i \over 3} { e^{i \pi (\alpha - 3) \over 3} }
 .\end{align*}
 
 We can now compute the contributions to the integral along the semicircular arc and the portion along the imaginary axis.
@@ -265,7 +266,7 @@ and so
 \begin{align*}
 I
 = { \res_{z = r_2} f(z) \over 1+i}
-= ?
+= {2\pi i \over 3(1+i)} { e^{i \pi (\alpha - 3) \over 3} }
 .\end{align*}
 
 ## 8
