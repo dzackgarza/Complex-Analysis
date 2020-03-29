@@ -179,6 +179,11 @@ Problem
 
 ### Solution
 
+First note that
+$$
+z^3 + 1 = (z+1)(z - e^{i\pi 3})(z - e^{-i \pi 3})
+.$$
+
 ## 8
 
 Problem
