@@ -242,7 +242,7 @@ We thus have
 
 We can now compute the contributions to the integral along the semicircular arc and the portion along the imaginary axis.
 
-Along the arc, Jordan's lemma applies since $1 \over R^3 + 1 \converges{R\to\infty}\to 0$, and thus this contribution vanishes.
+Along the arc, Jordan's lemma applies since ${1 \over R^3 + 1} \converges{R\to\infty}\to 0$, and thus this contribution vanishes.
 
 
 
