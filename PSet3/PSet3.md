@@ -270,6 +270,10 @@ I
 = {2\pi i \over 3(1+i)} { e^{i \pi (\alpha - 3) \over 3} }
 .\end{align*}
 
+$\qed$
+
+> Note: this seems to be wrong, because plugging in $a=1,2,3$ doesn't result in a real value.
+
 ## 8
 
 Problem
