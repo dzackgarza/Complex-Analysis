@@ -207,7 +207,7 @@ Since $f$ is also analytic, the Cauchy-Goursat theorem applies and $\int_{S^1} f
 
 ### Solution Part (b)
 
-> Not sure.
+> Not sure, possibly just a computation?
 
 ## 7
 
