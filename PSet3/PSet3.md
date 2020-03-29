@@ -218,7 +218,7 @@ $$
 z\in \CC\setminus \bar{D_r}(0) \implies \abs{f(z)} > \abs{f(0)}
 $$
 where $D_r(0)$ is a closed disc of radius $r$ about $z=0$.
-Then $\abs{1/f(z)} < \abs{\frac 1 f(0)}$ for every such $z$.
+Then $\abs{1/f(z)} < \abs{1 \over f(0)}$ for every such $z$.
 
 
 
