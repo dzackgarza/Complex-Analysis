@@ -300,7 +300,11 @@ Similarly, the maximum modulus principle applied to $\frac 1 f$ in $\bar{\Omega^
 Thus $\abs{f} = M$ is constant on $\bar \Omega$.
 
 So consider the function $g(z) = \abs{f(z)}$; from the above observation, we find that $g(\bar \Omega) = \theset{M}$.
-Letting $S_M$ be the circle of radius $M$, this implies that $f(\bar \Omega) \subseteq S_M$.
+Letting $S_M$ be the circle of radius $M$, this implies that $f(\Omega) \subseteq S_M$.
+In particular, $S_M \subset \CC$ is a closed set.
+
+However, by the open mapping theorem, $f(\Omega) \subset \CC$ must be an open set.
+
 
 
 
