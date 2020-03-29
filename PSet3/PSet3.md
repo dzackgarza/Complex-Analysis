@@ -297,7 +297,7 @@ on its closure $\overline \Omega$.
 
 By the maximum modulus principle applied to $f$ in $\bar \Omega$, we know that $\max \abs{f} = M$.
 Similarly, the maximum modulus principle applied to $\frac 1 f$ in $\bar{\Omega^c}$ since $f$ is nonzero in $\Omega$, and we can conclude that $\min \abs{f} = M$ as well.
-Thus $\abs{f} = M$ is a constant on $\bar \Omega$.
+Thus $\abs{f} = M$ is constant on $\bar \Omega$.
 
 So consider the function $g(z) = \abs{f(z)}$; from the above observation, we find that the image of $\bar \Omega$ is
 
