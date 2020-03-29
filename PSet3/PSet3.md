@@ -195,8 +195,24 @@ $D$ with interior in $D$.
 
 ### Solution
 
-This follows directly from the open mapping theorem.
-If $f$ is analytic on $D$, it is also holomorphic on $D$
+Since $f$ is analytic in $D$ (wlog assuming $0\in D$ by translation), take its series expansion $f(z) = c_0 + c_1 z + \cdots$ for $z\in D$.
+
+Without loss of generality, suppose that $\gamma$ is not entirely contained in $\RR$, so for $z \in \gamma$ we can write $z = x + iy$ where $y\neq 0$.
+
+Then
+\begin{align*}
+f(z) &= f(x+iy) \\
+&= c_0 + c_1(x+iy) + \cdots \\
+&= c_0 + c_1 x + i c_1 y + \cdots
+&\subset \RR \quad\text{by assumption}
+,\end{align*}
+
+and so we must have $c_1 y = 0 \implies c_1 = 0$.
+The same argument applies to further terms in the expansion, so we in fact have $c_i = 0$ for every $i \geq 1$.
+
+But this says $f(z) = c_0$ for an arbitrary $z$, i.e. $f$ is constant.
+
+$\qed$
 
 ## 10
 
