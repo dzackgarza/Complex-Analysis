@@ -240,18 +240,15 @@ Claim
     - $\Delta_{\gamma_2}\arg f(z) = 2\pi$
     - $\Delta_{\gamma_3}\arg f(z) = 0$
 
-Using the claim and the fact that $f$ is holomorphic on $\CC$ and thus has no poles, we obtain
+Given the claim, we would have
 
 \begin{align*}
 \Delta_\Gamma \arg f(z) = 2\pi = 2\pi \qty{Z - 0} \implies Z = 1
-.\end{align*}
+,\end{align*}
 
-Thus $f$ has one root $r_1$ in the first quadrant.
-Since $r_1$ is not a real root, $\bar r_1$ in quadrant 4 is also a root.
-By symmetry, $f$ will have one root in quadrant 2, and thus 1 on quadrant 3, yielding exactly one root in each quadrant.
+which is what we want to show.
 
-
-Proof of Claim
+**Proof of Claim**:
 
 $\gamma_2$:
 For $R\gg 0$, we have $f(z) \sim z^4$.
