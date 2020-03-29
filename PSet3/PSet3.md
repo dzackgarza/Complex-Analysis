@@ -244,6 +244,14 @@ We can now compute the contributions to the integral along the semicircular arc 
 
 Along the arc, Jordan's lemma applies since ${1 \over R^3 + 1} \converges{R\to\infty}\to 0$, and thus this contribution vanishes.
 
+Along the imaginary axis, we can make the following change of variables:
+\begin{align*}
+\int_{0}^{R} f(iy) ~dy
+&= \int_0^R {(iy)^{\alpha-1} \over (iy)^3 + 1} ~dy \\
+&= i \int_0^R {t^{\alpha-1} \over t^3 + 1} ~dt \\
+&= i I
+.\end{align*}
+
 
 
 ## 8
