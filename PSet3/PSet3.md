@@ -293,6 +293,9 @@ on its closure $\overline \Omega$.
 
     Show that if $\abs{f(z)} \equiv M$ is constant for $z\in \partial \Omega$, then $f(z) \equiv Me^{i\theta}$ for some real constant $\theta$.
 
+### Solution
+
+
 # Stein and Shakarchi
 
 ## S&S 3.8.1
