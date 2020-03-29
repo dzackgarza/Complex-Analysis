@@ -258,6 +258,7 @@ Reading off the residue from the above decomposition, we thus have
 \begin{align*}
 I
 &= \frac i 2 \cdot 2\pi i \cdot \sum \Res_{u=r_i} \frac{1}{f_a(u)} \\
+&= -\pi \cdot \res_{u=r_1} \frac{1}{f_a(u)} \\
 &= \frac{\pi}{8\sqrt{a^2+a}}
 .\end{align*}
 
