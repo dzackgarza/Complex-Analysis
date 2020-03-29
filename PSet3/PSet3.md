@@ -179,7 +179,7 @@ Problem
 
 ### Solution
 
-First note that
+We will compute this using a closed contour and the residue theorem, so first note that
 $$
 z^3 + 1 = (z+1)(z - e^{i\pi 3})(z - e^{-i \pi 3})
 .$$
