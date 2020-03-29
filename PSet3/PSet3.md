@@ -237,9 +237,12 @@ We thus have
 \begin{align*}
 \res_{z = r_2} f(z)
 &= \frac 1 3 { e^{i \pi (\alpha - 3) \over 3} } \\
-\implies \int_\Gamma f(z) ~dz &= {2\pi i \over 3} { e^{i \pi (\alpha - 3) \over 3} } 
+\implies \int_\Gamma f(z) ~dz &= {2\pi i \over 3} { e^{i \pi (\alpha - 3) \over 3} }
 .\end{align*}
 
+We can now compute the contributions to the integral along the semicircular arc and the portion along the imaginary axis.
+
+Along the arc, Jordan's lemma applies since $1 \over R^3 + 1 \converges{R\to\infty}\to 0$, and thus this contribution vanishes.
 
 
 
