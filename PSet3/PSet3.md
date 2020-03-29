@@ -177,6 +177,8 @@ Problem
 : Let $0<a<4$ and evaluate $$\begin{aligned}
     \int_0^\infty \frac{x^{\alpha-1}}{1+x^3} ~dx\end{aligned}$$
 
+### Solution
+
 ## 8
 
 Problem
