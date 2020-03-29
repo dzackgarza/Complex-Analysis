@@ -259,7 +259,8 @@ which is $i$ times the original integral.
 We thus have
 \begin{align*}
 \res_{z = r_2} f(z)
-= \int_\Gamma f = \int_0^R f + \int_{C_R} f + \int_{iR}^{0} f \converges{R\to\infty}\to I + 0 +iI = (1+i)I
+&= \int_\Gamma f = \int_0^R f + \int_{C_R} f + \int_{iR}^{0} f  \\
+&\converges{R\to\infty}\to I + 0 +iI = (1+i)I
 ,\end{align*}
 
 and so
