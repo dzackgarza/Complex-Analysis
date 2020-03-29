@@ -236,9 +236,7 @@ $$
 We thus have
 \begin{align*}
 \res_{z = r_2} f(z)
-&= {P(r_2) \over Q'(r_2)} = { r_2^{\alpha-1} \over 3r_2^2 }
-= -\frac{1}{3} \, {\left(\frac{1}{2} i \, \sqrt{3} + \frac{1}{2}\right)}^{\alpha}
-= -{1 \over 6} \qty{i\sqrt{3} + 1  }^\alpha
+&= { e^{i \pi (\alpha - 3) \over 3} }
 .\end{align*}
 
 
