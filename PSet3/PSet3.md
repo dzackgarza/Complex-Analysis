@@ -195,7 +195,7 @@ $D$ with interior in $D$.
 
 ### Solution
 
-
+Since $f$ is analytic in $D$ (wlog assuming $0\in D$ by translation), take its series expansion $f(z) = c_0 + c_1 z + \cdots$ for $z\in D$.
 
 ## 10
 
