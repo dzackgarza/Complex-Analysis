@@ -278,6 +278,8 @@ By cases, for $z\in \RR$,
   ,\end{align*}
   so $f$ is strictly positive and does not change argument $(0, \pm 1)$ or $i\cdot(0, \pm 1)$.
 
+$\qed$
+
 ## 13
 
 Problem
