@@ -271,7 +271,9 @@ By cases, for $z\in \RR$,
   \begin{align*}
   \abs{-z^4 -2z^3 + 2z}
   &\leq \abs{z}^4 + 2\abs{z}^3 + 2\abs{z} \\
-  &\leq 1 + 2 + 2 = 5 < 10 \\
+  &\leq 1 + 2 + 2 \\
+  &= 5  \\
+  &< 10 \\
   \implies f(z) &= 10 - (-z^4 - 2z^3 + 2z) > 0
   ,\end{align*}
   so $f$ is strictly positive and does not change argument $(0, \pm 1)$ or $i\cdot(0, \pm 1)$.
