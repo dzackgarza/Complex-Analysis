@@ -200,7 +200,7 @@ Then noting that
 \abs{f - g}
 &= \abs{ a_{n-1} z^{n-1}  + \cdots + a_1 z + a_0 }  \\
 &= \abs{ a_{n-1} z^{n-1}  + \cdots + a_1 z + a_0 + a_{n}z^n - a_{n}z^n }  \\
-&\leq \abs{ a_{n-1} z^{n-1}  + \cdots + a_1 z + a_0 + a_{n}z^n } + \abs{ a_{n}z^n }  \\
+&\leq \abs{ a_{n-1} z^{n-1}  + \cdots + a_1 z + a_0 + a_{n}z^n } + \abs{ a_{n}z^n }  \quad\quad \text{ for } \abs{z} > 1 \\
 &= \abs{f} + \abs{g}
 \end{align*}
 
