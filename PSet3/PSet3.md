@@ -193,6 +193,10 @@ $D$ with interior in $D$.
 
     Prove that if $f(z)$ is real for all $z\in \gamma$, the $f$ is constant.
 
+### Solution
+
+
+
 ## 10
 
 Problem
