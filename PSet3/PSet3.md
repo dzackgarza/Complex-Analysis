@@ -228,6 +228,7 @@ We have
 &= 4i \int_{\gamma_1} \frac 1 z \qty{ \frac{1}{z^2 - (2 + 4a) + z^{-2}} } ~dz\\
 &= 4i \int_{\gamma_1} \frac{z}{z^4 - \qty{2+4a}z^2 + 1} ~dz \\
 &= i \oint_{S^1} \frac{z}{z^4 - \qty{2+4a}z^2 + 1} ~dz \\
+&= \frac i 2 \oint_{2\cdot S^1} \frac{1}{u^2 - (2+4a)u + 1} ~du \quad u = z^2, \frac 1 2 ~du = z~dz \\
 &\definedas i \oint_{S^1} f_a(z) ~dz
 ,\end{align*}
 
