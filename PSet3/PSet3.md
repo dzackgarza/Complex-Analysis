@@ -259,14 +259,19 @@ By cases, for $z\in \RR$,
 
 - If $\abs{z} > 1$, then $z^3 > z$ and so
   \begin{align*}
-  f(z) = (z^4 +10) + (2z^3 - 2z) > (z^4 + 10) + (2z - 2z) = z^4 +10 > 0
+  f(z)
+  &= (z^4 +10) + (2z^3 - 2z)  \\
+  &> (z^4 + 10) + (2z - 2z) \\
+  &= z^4 +10 \\
+  &> 0
   ,\end{align*}
   so $f$ is strictly positive and does not change argument on $(\pm 1,\pm \infty)$ or $i\cdot(\pm 1, \pm \infty)$.
 
 - If $\abs{z} \leq 1$,
   \begin{align*}
   \abs{-z^4 -2z^3 + 2z}
-  &\leq \abs{z}^4 + 2\abs{z}^3 + 2\abs{z} \leq 1 + 2 + 2 = 5 < 10 \\
+  &\leq \abs{z}^4 + 2\abs{z}^3 + 2\abs{z} \\
+  &\leq 1 + 2 + 2 = 5 < 10 \\
   \implies f(z) &= 10 - (-z^4 - 2z^3 + 2z) > 0
   ,\end{align*}
   so $f$ is strictly positive and does not change argument $(0, \pm 1)$ or $i\cdot(0, \pm 1)$.
