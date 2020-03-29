@@ -259,8 +259,14 @@ We thus have
 \begin{align*}
 \res_{z = r_2} f(z)
 = \int_\Gamma f = \int_0^R f + \int_{C_R} f - \int_{0}^{iR} f = I + 0 +iI
-.\end{align*}
+,\end{align*}
 
+and so
+\begin{align*}
+I
+= { \res_{z = r_2} f(z) \over 1+i}
+= ?
+.\end{align*}
 
 ## 8
 
