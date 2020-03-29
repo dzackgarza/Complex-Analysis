@@ -186,6 +186,7 @@ z^3 + 1 = (z+1)(z - e^{i\pi 3})(z - e^{-i \pi 3})
 
 Defining $z^\alpha = e^{\alpha \log z}$ for $\alpha \in \RR$, we'll take the following contour shown in blue along with a branch cut for the logarithm function indicated in red:
 
+\begin{center}
 \begin{tikzpicture}
 \pgfplotsset{every x tick label/.append style={font=\tiny, yshift=0.5ex}}
 \pgfplotsset{every y tick label/.append style={font=\tiny, xshift=0.5ex}}
@@ -222,6 +223,9 @@ Defining $z^\alpha = e^{\alpha \log z}$ for $\alpha \in \RR$, we'll take the fol
 \end{scope}
 \end{axis}
 \end{tikzpicture}
+
+\end{center}
+
 
 ## 8
 
