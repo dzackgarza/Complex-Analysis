@@ -250,7 +250,7 @@ We can then write a partial fraction decomposition
 &= \frac{A}{u-r_1} + \frac{B}{u-r_2} \\
 &= \frac{\Res_{u=r_1} 1/f(u)}{u-r_1} + \frac{\Res_{u=r_2} 1/f(u) }{u-r_2} \\
 &= \frac{1/f'(r_1)}{u-r_1} + \frac{1/f'(r_2)}{u-r_2} \\
-&= \frac{1}{8\sqrt{a^2+a}(u-r_1)} - \frac{1}{8\sqrt{a^2+a}(u-r_2)}
+&= -\frac{1}{8\sqrt{a^2+a}(u-r_1)} + \frac{1}{8\sqrt{a^2+a}(u-r_2)}
 .\end{align*}
 
 Since $\abs{r_2} = \abs{(1+2a) + 4\sqrt{a^2 + a}} > 1$, we find that the only relevant pole inside of $S^1$ is $r_1$.
@@ -258,7 +258,7 @@ Reading off the residue from the above decomposition, we thus have
 \begin{align*}
 I
 &= \frac i 2 \cdot 2\pi i \cdot \sum \Res_{u=r_i} \frac{1}{f_a(u)} \\
-&= -\pi \qty{\frac{1}{8\sqrt{a^2+a}}  }
+&= \frac{\pi}{8\sqrt{a^2+a}}
 .\end{align*}
 
 $\qed$
