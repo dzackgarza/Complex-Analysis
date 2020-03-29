@@ -197,7 +197,7 @@ The singularity is removable because we have
 \begin{align*}
 \lim_{z\to 0} f(z)
 &= \lim_{z\to 0} {\log(1-z) \over iz} \\
-&= \lim_{z\to 0} { {1 \over 1-z}  \over i} \quad\text{by L'Hopital's} \\
+&= \lim_{z\to 0} { {1 \over 1-z}  \over i} \quad\quad\text{by L'Hopital's} \\
 &= -i
 .\end{align*}
 
