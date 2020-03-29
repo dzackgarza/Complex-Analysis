@@ -233,7 +233,17 @@ We have
 ,\end{align*}
 
 where $2\cdot S^1$ denotes the contour wrapping around the unit circle twice.
-which we can now compute by the residue theorem.
+We can now compute the last integral by the residue theorem.
+
+Factor the denominator as $u^2 -(2+4a)u + 1 = (u-r_1)(u-r_2)$, where the $r_i$ are given by $(1 + 2a) \pm 4\sqrt{a^2 + a}$ using the quadratic formula.
+We can then write a partial fraction decomposition
+\begin{align*}
+\frac{1}{f(u)}
+&\definedas \frac{1}{u^2 - (2+4a)u + 1} \\
+&= \frac{1}{(u-r_1)(u-r_2)}
+&= \frac{A}{u-r_1} + \frac{B}{u-r_2} \\
+&= \frac{\Res_{u=r_1} f(u)}{u-r_1} + \frac{\Res_{u=r_2} f(u) }{u-r_2}
+.\end{align*}
 
 ## 11
 
