@@ -199,7 +199,9 @@ The singularity is removable because we have
 &= \lim_{z\to 0} {\log(1-z) \over iz} \\
 &= \lim_{z\to 0} { {1 \over 1-z}  \over i} \quad\quad\text{by L'Hopital's} \\
 &= -i
-.\end{align*}
+,\end{align*}
+
+so the modified function $F$ defined by $F(0) = -i$ and $F(z) = f(z)$ otherwise is holomorphic, making $z=0$ removable.
 
 ## 7
 
