@@ -222,7 +222,8 @@ Problem
 
 We have
 \begin{align*}
-\int_0^{\pi/2} \frac{1}{1 + \sin^2(\theta)} ~d\theta
+I &\definedas
+\int_0^{\pi/2} \frac{1}{1 + \sin^2(\theta)} ~d\theta \\
 &= \int_{\gamma_1} \frac{1}{a + \qty{\frac{z - z\inv}{2i}}^2} ~\frac{-i~dz}{z} \quad\text{where $\gamma_1$ is $\frac 1 4$ of the unit circle $S^1$}\\
 &= -i \int_{\gamma_1} \frac 1 z \qty{\frac{1}{a + \qty{-\frac 1 4}\qty{z^2 -2 + z^{-2}}  }  } ~dz\\
 &= 4i \int_{\gamma_1} \frac 1 z \qty{ \frac{1}{z^2 - (2 + 4a) + z^{-2}} } ~dz\\
@@ -253,6 +254,14 @@ We can then write a partial fraction decomposition
 .\end{align*}
 
 Since $\abs{r_2} = \abs{(1+2a) + 4\sqrt{a^2 + a}} > 1$, we find that the only relevant pole inside of $S^1$ is $r_1$.
+Reading off the residue from the above decomposition, we thus have
+\begin{align*}
+I
+&= 2i \cdot 2\pi i \cdot \sum \Res_{u=r_i} \frac{1}{f_a(u)} \\
+&= 2i \cdot 2\pi i \qty{\frac{1}{8\sqrt{a^2+a}}  }
+.\end{align*}
+
+$\qed$
 
 ## 11
 
