@@ -181,7 +181,7 @@ Problem
 
 We will compute this using a closed contour and the residue theorem, so first note that
 $$
-z^3 + 1 = (z+1)(z - e^{i\pi 3})(z - e^{-i \pi 3})
+z^3 + 1 = (z+1)(z - e^{i\pi 3})(z - e^{-i \pi 3}) \definedas (z- r_1)(z-r_2)(z-r_3)
 .$$
 
 Defining $z^\alpha = e^{\alpha \log z}$ for $\alpha \in \RR$, we'll take the following contour $\Gamma$ shown in blue along with a branch cut for the logarithm function indicated in red:
@@ -223,6 +223,8 @@ Defining $z^\alpha = e^{\alpha \log z}$ for $\alpha \in \RR$, we'll take the fol
 \end{axis}
 \end{tikzpicture}
 \end{center}
+
+
 
 
 ## 8
