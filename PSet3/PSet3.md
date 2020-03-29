@@ -169,7 +169,10 @@ Problem
 :   \hfill
     a. Show that
     $$\begin{aligned}\int_0^{2\pi} \log\abs{1 - e^{i\theta}}~d\theta = 0\end{aligned}$$
-    b. Show that this identity is equivalent to SS 3.8.9.
+    b. Show that this identity is equivalent to SS 3.8.9:
+    \begin{align*}
+    \int_0^1 \log(\sin(\pi x)) ~dx = -\log 2
+    .\end{align*}
 
 ## 7
 
