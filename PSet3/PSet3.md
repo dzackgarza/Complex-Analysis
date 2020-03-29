@@ -220,12 +220,10 @@ $$
 where $D_r(0)$ is an open disc of radius $r$ about $z=0$.
 Then $\abs{g(z)} < \abs{g(0)}$ for every such $z$.
 
-Noting that $\bar{D_r}(0)$ is closed and bounded and thus compact by Heine-Borel
+Noting that $\bar{D_r}(0)$ is closed and bounded and thus compact by Heine-Borel, $g$ has a global maximum in the interior $D_r^\circ$.
+But by the maximum modulus principle, this forces $g$ to be constant, and since $g = {1 \over f}$, it must also be true that $f$ is constant.
 
-
-
-
-
+$\qed$
 
 ## 9
 
