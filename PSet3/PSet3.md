@@ -264,6 +264,8 @@ I
 
 $\qed$
 
+> Note: I know I'm off by a constant here, since $a=1$ should reduce to $\pi/2\sqrt 2$.
+
 ## 11
 
 Problem
