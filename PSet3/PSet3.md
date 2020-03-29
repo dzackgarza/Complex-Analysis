@@ -247,6 +247,8 @@ We can then write a partial fraction decomposition
 &= \frac{1}{8\sqrt{a^2+a}(u-r_1)} - \frac{1}{8\sqrt{a^2+a}(u-r_2)}
 .\end{align*}
 
+Since $\abs{r_2} = \abs{(1+2a) + 4\sqrt{a^2 + a}} > 1$, we find that the only relevant pole inside of $S^1$ is $r_1$.
+
 ## 11
 
 Problem
