@@ -196,7 +196,17 @@ $D$ with interior in $D$.
 ### Solution
 
 Since $f$ is analytic in $D$ (wlog assuming $0\in D$ by translation), take its series expansion $f(z) = c_0 + c_1 z + \cdots$ for $z\in D$.
+
 For $z \in \gamma$, write $z = x + iy$.
+Then
+\begin{align*}
+f(z) &= f(x+iy) \\
+&= c_0 + c_1(x+iy) + \cdots \\
+&= c_0 + c_1 x + i c_1 y + \cdots
+&\subset \RR \quad\text{by assumption}
+,\end{align*}
+
+and so we must have $c_1 y = 0$.
 
 ## 10
 
