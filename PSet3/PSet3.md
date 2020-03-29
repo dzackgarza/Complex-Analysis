@@ -218,9 +218,9 @@ $$
 z\in \CC\setminus \bar{D_r}(0) \implies \abs{f(z)} > \abs{f(0)}
 $$
 where $D_r(0)$ is an open disc of radius $r$ about $z=0$.
-Then $\abs{1 \over f(z)} < \abs{1 \over f(0)}$ for every such $z$.
+Then $\abs{g(z)} < \abs{g(0)}$ for every such $z$.
 
-
+Noting that $\bar{D_r}(0)$ is closed and bounded and thus compact by Heine-Borel
 
 
 
