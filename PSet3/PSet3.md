@@ -233,6 +233,7 @@ Computing the residue here, noting that each pole is simple of order 1, we have
 \begin{align*}
 \res_{z = r_2} f(z)
 &= {P(r_2) \over Q'(r_2)} = { r_2^{\alpha-1} \over 3r_2^2 }
+= -\frac{1}{3} \, {\left(\frac{1}{2} i \, \sqrt{3} + \frac{1}{2}\right)}^{\alpha}
 .\end{align*}
 
 
