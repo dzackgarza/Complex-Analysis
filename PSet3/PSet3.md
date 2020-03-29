@@ -195,16 +195,16 @@ Theorem (Rouche)
 We'll also use without proof the fact that the function $h(z) = z^n$ has precisely $n$ zeros (counted with multiplicity).
 
 Suppose $f(z) = a_n z^n + \cdots + a_1 z + a_0$ where $a_n \neq 0$ and define $g(z) = a_n z^n$.
-Then noting that
+Noting that polynomials are entire, $f, g$ are nonzero by assumption, and
 \begin{align*}
 \abs{f - g}
 &= \abs{ a_{n-1} z^{n-1}  + \cdots + a_1 z + a_0 }  \\
 &= \abs{ a_{n-1} z^{n-1}  + \cdots + a_1 z + a_0 + a_{n}z^n - a_{n}z^n }  \\
-&\leq \abs{ a_{n-1} z^{n-1}  + \cdots + a_1 z + a_0 + a_{n}z^n } + \abs{ a_{n}z^n }  \quad\quad \text{ for } \abs{z} > 1 \\
+&\leq \abs{ a_{n-1} z^{n-1}  + \cdots + a_1 z + a_0 + a_{n}z^n } + \abs{ a_{n}z^n }  \quad\quad \text{ for } \abs{z} > 1 (?) \\
 &= \abs{f} + \abs{g}
 \end{align*}
 
-and $f \neq g \neq 0$ for $\abs{z} > 0$
+the conditions of Rouche's theorem apply and $f$ has precisely $n$ roots.
 
 
 
