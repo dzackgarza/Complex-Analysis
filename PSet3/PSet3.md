@@ -203,6 +203,8 @@ The singularity is removable because we have
 
 so the modified function $F$ defined by $F(0) = -i$ and $F(z) = f(z)$ otherwise is holomorphic, making $z=0$ removable.
 
+Since $f$ is also analytic, the Cauchy-Goursat theorem applies and $\int_{S^1} f = 0$.
+
 ## 7
 
 Problem
