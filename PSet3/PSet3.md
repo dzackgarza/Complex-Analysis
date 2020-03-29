@@ -232,7 +232,7 @@ we find that only $z=r_2$ will contribute a term to $\int_\Gamma f$.
 Computing the residue here, noting that each pole is simple of order 1, we have
 \begin{align*}
 \res_{z = r_2} f(z)
-&= {P(r_2) \over Q'(r_2)}
+&= {P(r_2) \over Q'(r_2)} = { r_2^{\alpha-1} \over 3r_2^2 }
 .\end{align*}
 
 
