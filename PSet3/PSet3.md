@@ -178,10 +178,17 @@ Problem
 
 Let $I$ be the integral in question, then substituting $z = e^{i\theta}$ and ${dz \over iz} = d\theta$ yields
 \begin{align*}
-I &= \int_{S^1} {\log \abs{1 - z} \over iz} ~dz \definedas \int_{S^1} f(z)~dz
+I &= \int_{S^1} {\log \abs{1 - z} \over iz} ~dz \definedas \Re\qty{ \int_{S^1} f(z)~dz }
 ,\end{align*}
 
-where $S^1$ is the unit circle in $\CC$, noting that since by definition $\log_\CC(z) = \log_\RR(\abs{z}) + i \arg(z)$ (where the subscripts denote the complex and real logarithms respectively), we have $\log\abs{1 - z} = \re\qty{\log_\CC z}$.
+where $f(z) = \log(1-z)$, $S^1$ is the unit circle in $\CC$, and since by definition
+$$
+\log_\CC(z) = \log_\RR(\abs{z}) + i \arg(z)
+$$
+where the subscripts denote the complex and real logarithms respectively, we have
+$$
+\log\abs{1 - z} = \Re\qty{\log_\CC z}
+.$$
 
 The claim is that $z=0$ is a removable singularity and thus $f$ is holomorphic in the unit disc.
 
