@@ -224,11 +224,15 @@ Defining $z^\alpha = e^{\alpha \log z}$ for $\alpha \in \RR$, we'll take the fol
 \end{tikzpicture}
 \end{center}
 
-Letting $f(z) = \frac{z^{\alpha-1}}{z^3 + 1}$, we find that only $z=r_2$ will contribute a term to $\int_\Gamma f$.
+Letting
+$$
+f(z) \definedas \frac{z^{\alpha-1}}{z^3 + 1} \definedas {P(z) \over Q(z)}
+,$$
+we find that only $z=r_2$ will contribute a term to $\int_\Gamma f$.
 Computing the residue here, noting that each pole is simple of order 1, we have
 \begin{align*}
-\res_{z = r_2} f(z) 
-&= 
+\res_{z = r_2} f(z)
+&=
 .\end{align*}
 
 
