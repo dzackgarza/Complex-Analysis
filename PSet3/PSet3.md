@@ -235,7 +235,7 @@ It will follow by symmetry that $f$ has exactly one root in each quadrant.
 
 Claim
 :   \hfill
-    - $f$ has no roots on the coordinmate axes.
+    - $f$ has no roots on the coordinate axes.
     - $\Delta_{\gamma_1}\arg f(z) = 0$
     - $\Delta_{\gamma_2}\arg f(z) = 2\pi$
     - $\Delta_{\gamma_3}\arg f(z) = 0$
