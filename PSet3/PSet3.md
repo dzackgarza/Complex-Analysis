@@ -174,6 +174,9 @@ Problem
     \int_0^1 \log(\sin(\pi x)) ~dx = -\log 2
     .\end{align*}
 
+### Solution
+
+
 ## 7
 
 Problem
