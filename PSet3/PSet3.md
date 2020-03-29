@@ -243,7 +243,8 @@ We can then write a partial fraction decomposition
 &= \frac{1}{(u-r_1)(u-r_2)} \\
 &= \frac{A}{u-r_1} + \frac{B}{u-r_2} \\
 &= \frac{\Res_{u=r_1} 1/f(u)}{u-r_1} + \frac{\Res_{u=r_2} 1/f(u) }{u-r_2} \\
-&= \frac{1/f'(r_1)}{u-r_1} + \frac{1/f'(r_2)}{u-r_2}
+&= \frac{1/f'(r_1)}{u-r_1} + \frac{1/f'(r_2)}{u-r_2} \\
+&= \frac{1}{8\sqrt{a^2+a}(u-r_1)} - \frac{1}{8\sqrt{a^2+a}(u-r_2)}
 .\end{align*}
 
 ## 11
