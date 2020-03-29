@@ -305,6 +305,11 @@ In particular, $S_M \subset \CC$ is a closed set.
 
 However, by the open mapping theorem, $f(\Omega) \subset \CC$ must be an open set.
 A basis for the topology on $\CC$ is given by open discs, so in particular, the open sets of $\CC$ have real dimension either zero or two.
+Since $S_M$ has real dimension 1, $f(\Omega)$ must have dimension zero and is thus a collection of points.
+Since $f$ is continuous, the image can only be one point, i.e. $f(\Omega) = \pt \in S_M$.
+So $f$ is constant.
+
+$\qed$
 
 
 
