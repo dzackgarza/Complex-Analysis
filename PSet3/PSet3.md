@@ -246,7 +246,7 @@ Given the claim, we would have
 \Delta_\Gamma \arg f(z) = 2\pi = 2\pi \qty{Z - 0} \implies Z = 1
 ,\end{align*}
 
-which is what we want to show.
+which is what we wanted to show.
 
 **Proof of Claim**:
 
