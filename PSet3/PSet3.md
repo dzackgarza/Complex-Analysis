@@ -184,7 +184,7 @@ $$
 z^3 + 1 = (z+1)(z - e^{i\pi 3})(z - e^{-i \pi 3})
 .$$
 
-Defining $z^\alpha = e^{\alpha \log z}$ for $\alpha \in \RR$, we'll take the following contour shown in blue along with a branch cut for the logarithm function indicated in red:
+Defining $z^\alpha = e^{\alpha \log z}$ for $\alpha \in \RR$, we'll take the following contour $\Gamma$ shown in blue along with a branch cut for the logarithm function indicated in red:
 
 \begin{center}
 \begin{tikzpicture}
