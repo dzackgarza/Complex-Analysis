@@ -176,6 +176,10 @@ Problem
 
 ### Solution
 
+Let $I$ be the integral in question, then substituting $z = e^{i\theta}$ and ${dz \over iz} = d\theta$ yields
+\begin{align*}
+I &= \int_{S^1} {\log \abs{1 - z} \over iz} ~dz
+.\end{align*}
 
 ## 7
 
