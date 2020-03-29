@@ -193,6 +193,13 @@ $$
 So it suffices to show that $\int_{S^1} f(z) ~dz = 0$.
 
 The claim is that $z=0$ is a removable singularity and thus $f$ is holomorphic in the unit disc.
+The singularity is removable because we have
+\begin{align*}
+\lim_{z\to 0} f(z)
+&= \lim_{z\to 0} {\log(1-z) \over iz} \\
+&= \lim_{z\to 0} { {1 \over 1-z}  \over i} \quad\text{by L'Hopital's} \\
+&= -i
+.\end{align*}
 
 ## 7
 
