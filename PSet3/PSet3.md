@@ -300,7 +300,7 @@ Similarly, the maximum modulus principle applied to $\frac 1 f$ in $\bar{\Omega^
 Thus $\abs{f} = M$ is constant on $\bar \Omega$.
 
 So consider the function $g(z) = \abs{f(z)}$; from the above observation, we find that $g(\bar \Omega) = \theset{M}$.
-Letting $D_M$ be the disc of radius $M$, this implies that $f(\bar \Omega) \subset D_M$.
+Letting $S_M$ be the circle of radius $M$, this implies that $f(\bar \Omega) \subset S_M$.
 
 
 
