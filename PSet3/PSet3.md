@@ -220,6 +220,10 @@ Problem
 : For $a> 0$, evaluate
   $$\begin{aligned} \int_0^{\pi/2} \frac{d\theta}{a + \sin^2 \theta}\end{aligned}$$
 
+$$
+\left[\left(-i \, a + i \, \sqrt{a^{2} - 1}, 1\right), \left(-i \, a - i \, \sqrt{a^{2} - 1}, 1\right)\right]
+$$
+
 ## 11
 
 Problem
