@@ -296,7 +296,7 @@ on its closure $\overline \Omega$.
 ### Solution
 
 By the maximum modulus principle applied to $f$ in $\bar \Omega$, we know that $\max \abs{f} = M$.
-Similarly, by the maximum modulus principle applied to $\frac 1 f$ in $\bar{\Omega^c}$, we also know that $\min \abs{f} = M$, and thus $\abs{}$
+Similarly, the maximum modulus principle applied to $\frac 1 f$ in $\bar{\Omega^c}$ since $f$ is nonzero in $\Omega$, and we can conclude that $\min \abs{f} = M$ as well.
 
 # Stein and Shakarchi
 
