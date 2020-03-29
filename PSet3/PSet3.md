@@ -185,6 +185,12 @@ Problem
     a.  Rouche's Theorem.
     b. The maximum modulus principle.
 
+### Solution (Rouche)
+
+We'll without proof the fact that the function $h(z) = z^n$ has precisely $n$ zeros (counted with multiplicity).
+
+### Solution (Maximum Modulus Principle)
+
 ## 9
 
 Problem
