@@ -217,6 +217,13 @@ Let $f(z) = z^4 +2z^3 -2z + 10$, and consider the following contour:
 
 ![Image](figures/2020-03-18-11:02.png)\
 
+By the argument principle, we have
+\begin{align*}
+\Delta_\Gamma \arg f(z) = 2\pi\qty{ Z - P }
+,\end{align*}
+
+where $Z$ is the number of zeros of $f$ in the region $\Omega$ enclosed by $\Gamma$ and $P$ is the number of poles in $\Omega$.
+
 
 Since polynomials are holomorphic on $\CC$, by the argument principle it suffices to show that
 
@@ -225,13 +232,6 @@ Since polynomials are holomorphic on $\CC$, by the argument principle it suffice
 - $\Delta_\Gamma \arg f(z) = 1$, where $\Delta_\Gamma$ denotes the total change in the argument of $f$ over $\Gamma$.
 
 It will follow by symmetry that $f$ has exactly one root in each quadrant.
-
-By the argument principle, we have
-\begin{align*}
-\Delta_\Gamma \arg f(z) = 2\pi\qty{ Z - P }
-,\end{align*}
-
-where $Z$ is the number of zeros of $f$ in the region $\Omega$ enclosed by $\Gamma$ and $P$ is the number of poles in $\Omega$.
 
 Claim
 :   \hfill
