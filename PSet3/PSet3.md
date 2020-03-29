@@ -236,7 +236,8 @@ $$
 We thus have
 \begin{align*}
 \res_{z = r_2} f(z)
-&= \frac 1 3 { e^{i \pi (\alpha - 3) \over 3} }
+&= \frac 1 3 { e^{i \pi (\alpha - 3) \over 3} } \\
+\implies \int_\Gamma f(z) ~dz &= {2\pi i \over 3} { e^{i \pi (\alpha - 3) \over 3} } 
 .\end{align*}
 
 
