@@ -208,9 +208,12 @@ the conditions of Rouche's theorem apply and $f$ has precisely $n$ roots.
 
 $\qed$
 
-
-
 ### Solution (Maximum Modulus Principle)
+
+Toward a contradiction, suppose $f$ is non-constant and has *no* zeros.
+Then $g(z) \definedas 1/f(z)$ is non-constant and holomorphic on $\CC$.
+
+Using the fact that $\lim_{z\to\infty} f(z) = \infty$ for any polynomial $f$, pick $R$ large enough such that if $z\in \CC\setminus D_r(0)$, then $\abs{f(z)} > \abs{f(0)}$.
 
 ## 9
 
