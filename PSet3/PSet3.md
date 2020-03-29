@@ -179,6 +179,7 @@ Problem
 
 ### Solution
 
+Let $I$ denote the integral in question.
 We will compute this using a closed contour and the residue theorem, so first note that
 $$
 z^3 + 1 = (z+1)(z - e^{i\pi 3})(z - e^{-i \pi 3}) \definedas (z- r_1)(z-r_2)(z-r_3)
@@ -248,10 +249,16 @@ Along the imaginary axis, we can make the following change of variables:
 \begin{align*}
 \int_{0}^{R} f(iy) ~dy
 &= \int_0^R {(iy)^{\alpha-1} \over (iy)^3 + 1} ~dy \\
-&= i \int_0^R {t^{\alpha-1} \over t^3 + 1} ~dt \\
-&= i I
-.\end{align*}
+&= \frac 1 i \int_0^R {t^{\alpha-1} \over t^3 + 1} ~dt \quad t = iz,~ dt = i~dz\\
+&= -i I
+,\end{align*}
 
+which is $-i$ times the original integral.
+
+We thus have
+\begin{align*}
+\int_\Gamma f = \int_0^R f + \int_{C_R} f - \int_{0}^{iR} f = I + 0 +iI
+.\end{align*}
 
 
 ## 8
