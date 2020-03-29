@@ -240,7 +240,7 @@ We can then write a partial fraction decomposition
 \begin{align*}
 \frac{1}{f(u)}
 &\definedas \frac{1}{u^2 - (2+4a)u + 1} \\
-&= \frac{1}{(u-r_1)(u-r_2)}
+&= \frac{1}{(u-r_1)(u-r_2)} \\
 &= \frac{A}{u-r_1} + \frac{B}{u-r_2} \\
 &= \frac{\Res_{u=r_1} f(u)}{u-r_1} + \frac{\Res_{u=r_2} f(u) }{u-r_2}
 .\end{align*}
