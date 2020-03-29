@@ -191,9 +191,20 @@ We'll use the follow formulation of Rouche's theorem:
 
 Theorem (Rouche)
 : If $f, g$ are holomorphic on $D(z_0)$ with $f=g\neq 0$ on $\bd D(z_0)$ and $\abs{f-g} < \abs f + \abs g$ on $\bd D(z_0)$, then $f$ and $g$ has the same number of zeros within $D$.
-We'll without proof the fact that the function $h(z) = z^n$ has precisely $n$ zeros (counted with multiplicity).
 
-Suppose $f(z) = a_n z^n + \cdots + a_1 z + a_0$ and define $g(z) = a_n z^n$.
+We'll also use without proof the fact that the function $h(z) = z^n$ has precisely $n$ zeros (counted with multiplicity).
+
+Suppose $f(z) = a_n z^n + \cdots + a_1 z + a_0$ where $a_n \neq 0$ and define $g(z) = a_n z^n$.
+Then noting that
+\begin{align*}
+\abs{f - g}
+&= \abs{ a_{n-1} z^{n-1}  + \cdots + a_1 z + a_0 }  \\
+&= \abs{ a_{n-1} z^{n-1}  + \cdots + a_1 z + a_0 + a_{n-1}z^n - a_{n-1}z^n }  \\
+&\leq \abs{ a_{n-1} z^{n-1}  + \cdots + a_1 z + a_0 + a_{n-1}z^n } + \abs{ a_{n-1}z^n }  \\
+&= \abs{f} + \abs{g}
+,\end{align*}
+and if we take $\abs{z} > 1$
+
 
 
 ### Solution (Maximum Modulus Principle)
