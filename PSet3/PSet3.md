@@ -304,7 +304,7 @@ Letting $S_M$ be the circle of radius $M$, this implies that $f(\Omega) \subsete
 In particular, $S_M \subset \CC$ is a closed set.
 
 However, by the open mapping theorem, $f(\Omega) \subset \CC$ must be an open set.
-
+A basis for the topology on $\CC$ is given by open discs, so in particular, the open sets of $\CC$ have real dimension either zero or two.
 
 
 
