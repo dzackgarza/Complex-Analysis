@@ -210,7 +210,6 @@ Defining $z^\alpha = e^{\alpha \log z}$ for $\alpha \in \RR$, we'll take the fol
 \node[font=\tiny] at (-180/3:1cm)[anchor = north west] {$r_3 =e^{-i\pi/3}$};
 \node[font=\tiny] at (axis cs:9,11) [anchor=north west] {$\mathbb{C}$};
 \node[font=\tiny] at (180/3.5: 4cm) [anchor=north west] {$\Gamma$};
-
 \begin{scope}[thick,decoration={
     markings,
     mark=at position 0.5 with {\arrow{>}}}
@@ -223,7 +222,6 @@ Defining $z^\alpha = e^{\alpha \log z}$ for $\alpha \in \RR$, we'll take the fol
 \end{scope}
 \end{axis}
 \end{tikzpicture}
-
 \end{center}
 
 
