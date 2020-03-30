@@ -158,7 +158,8 @@ Thus if $a$ is a simple root of $Q(z)$, it is a simple pole of $f$, and thus we 
 Since we can write $f(z) = P_\infty(z) + P_a(z) + \cdots$ where none of the remaining terms involve $a$, it follows by definition that $\alpha_1 = \Res(f, a)$ and so
 \begin{align*}
 P_a(z) = { \Res(f, a) \over z-a}
-.\end{align*}
+,\end{align*}
+where we can note that here $\Res(f, a) = {P(a) \over Q'(a)}$.
 
 Similarly, if now $a$ is a root of multiplicity 2 of $Q(z)$, $a$ is a pole of order 2 of $f$ and $P_a(z) = {\alpha_1 \over z-a} + {\alpha_2 \over (z-a)^2}$.
 
