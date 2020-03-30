@@ -183,7 +183,7 @@ for infinitely many points $z_n$ with $\lim_{n\to\infty} z_n = 0$.
 
 ### Solution
 
-It suffices to show that $z_0 = 0$ is neither a pole nor a removable singularity, i.e.
+It suffices to show that $z_0 = 0$ is neither a pole nor a removable singularity, and equivalently $z_0 =
 
 1. $\lim_{z\to 0}f(z) \neq \infty$
 
