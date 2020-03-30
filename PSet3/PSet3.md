@@ -155,7 +155,11 @@ for some constants $\alpha_i \in \CC$,
 and thus the first equation expresses $f$ in terms of its partial fraction decomposition.
 
 Thus if $a$ is a simple root of $Q(z)$, it is a simple pole of $f$, and thus we have $P_a(z) = {\alpha_1 \over z-a}$.
-Since we can write $f(z) = P_\infty(z) + P_a(z) + \cdots$ where none of the remaining terms involve $a$, it follows by definition that $\alpha_1 = \Res(f, z=a)$.
+Since we can write $f(z) = P_\infty(z) + P_a(z) + \cdots$ where none of the remaining terms involve $a$, it follows by definition that $\alpha_1 = \Res(f, a)$ and so
+\begin{align*}
+P_a(z) = { \Res(f, a) \over z-a}
+.\end{align*}
+
 
 
 ## 4
