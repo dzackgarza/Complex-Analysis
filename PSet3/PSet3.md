@@ -183,7 +183,9 @@ for infinitely many points $z_n$ with $\lim_{n\to\infty} z_n = 0$.
 
 ### Solution
 
-Let $g(z) = 1/f(z)$; then $g(z_n) = \infty$ and it suffices to show that $z=0$ is an essential singularity for $g$.
+Let $g(z) = 1/f(z)$; then the $z_n$ are poles of $g$ limiting to zero.
+Toward a contradiction, suppose that $g$ is analytic.
+
 
 ## 5
 
