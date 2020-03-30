@@ -137,6 +137,8 @@ $Q$.
 
 We'll use the following definition: if $f: \CC \to \CC$ is analytic with Laurent expansion $f(z) = \sum_{k=-\infty}^\infty c_k (z-a)^k$ at the point $a\in\CC$, then the **principal part** of $f$ at $a$ is given by $\sum_{k=-1}^{-\infty} c_k (z-a)^k = c_{-1}(z-a)\inv + c_{-2}(z-a)^{-2} + \cdots$.
 
+Without loss of generality (by performing polynomial long division if necessary), assume that $\deg P < \deg Q$.
+
 
 
 ## 4
