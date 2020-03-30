@@ -142,7 +142,7 @@ $$
 
 Without loss of generality (by performing polynomial long division if necessary), assume that $\deg P < \deg Q$.
 By the method used in the theorem that proves meromorphic functions are rational, if we let $a_1, \cdots, a_n$ be the finitely many zeros of $Q(z)$, these are the finitely many poles of $P(z)/Q(z)$, and we can write
-\begin{align*}\label{eq:principal}
+\begin{align*}
 {P(z) \over Q(z)} \definedas f(z) = P_\infty(z) + \sum_{i=1}^n P_{a_i}(z)
 \end{align*}
 where $P_w(z)$ denotes the principal part of $f$ at the point $w$.
@@ -151,7 +151,7 @@ Note that if $w$ is a pole of order $\ell$, we can explicitly write
 $$
 P_w(z) = {\alpha_1 \over z-w} + {\alpha_2 \over (z-w)^2} + \cdots + {\alpha_\ell \over (z-w)^\ell}
 $$
-and thus equation \ref{eq:principal} expresses $f$ in terms of its partial fraction decomposition.
+and thus equation the first equation expresses $f$ in terms of its partial fraction decomposition.
 
 
 
