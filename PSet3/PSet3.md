@@ -160,7 +160,7 @@ Since we can write $f(z) = P_\infty(z) + P_a(z) + \cdots$ where none of the rema
 P_a(z) = { \Res(f, a) \over z-a}
 .\end{align*}
 
-
+Similarly, if now $a$ is a root of multiplicity 2 of $Q(z)$, $a$ is a pole of order 2 of $f$ and $P_a(z) = {\alpha_1 \over z-a} + {\alpha_2 \over (z-a)^2}$.
 
 ## 4
 
