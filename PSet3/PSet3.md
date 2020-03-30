@@ -135,7 +135,7 @@ $Q$.
 
 ### Solution
 
-> todo
+We'll use the following definition: if $f: \CC \to \CC$ is analytic with Laurent expansion $f(z) = \sum_{k=-\infty}^\infty c_k z^k$, then the **principal part** of $f$ is given by $\sum_{k=-1}^{-\infty} c_k z^k = c_{-1}z\inv + c_{-2}z^{-2} + \cdots$.
 
 ## 4
 
