@@ -193,10 +193,6 @@ and so $z=0$ can not be a pole because (by definition) this would force $\lim_{z
 Similarly, $z=0$ can not be removable, since the function
 $$
 g(z) =
-\begin{cases}
-0 & z=0
-f(z) & \text{otherwise}
-\end{cases}
 $$
 defines an analytic continuation of $f$, which in particular would be an analytic function with non-isolated zeros, again a contradiction.
 
