@@ -184,7 +184,7 @@ for infinitely many points $z_n$ with $\lim_{n\to\infty} z_n = 0$.
 ### Solution
 
 Let $g(z) = 1/f(z)$; then the $z_n$ are poles of $g$ limiting to zero.
-Toward a contradiction, suppose that $g$ is analytic.
+Toward a contradiction, suppose $f$ is analytic on $\CC\setminus \theset{0}$, then $g = 1/f$ is analytic as well.
 
 
 ## 5
