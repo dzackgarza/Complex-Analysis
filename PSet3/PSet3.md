@@ -169,6 +169,8 @@ P_a(z) = { \Res(f(z), a) \over z-a} + {\Res((z-a)f(z), a) \over (z-a)^2}
 
 $\qed$
 
+\newpage
+
 ## 4
 
 Problem
