@@ -382,7 +382,7 @@ Problem
 
 ### Solution (Rouche)
 
-We want to show that every $f \in \CC[x]$ has precisely $n$ roots, and we'll use the follow formulation of Rouche's theorem:
+We want to show that every $f \in \CC[x]$ has precisely $n$ roots, and we'll use the follow formulation of Rouche's theorem: \\
 
 Theorem (Rouche)
 : If $f, g$ are holomorphic on $D(z_0)$ with $f,g\neq 0$ and $\abs{f-g} < \abs f + \abs g$ on $\bd D(z_0)$, then $f$ and $g$ has the same number of zeros within $D$.
@@ -524,7 +524,7 @@ $$
 on $\abs{z} = 2$, and thus $f$ and $p$ have the same number of zeros in this region.
 Since $f$ has **four** zeros here, so does $p$.
 
-Thus $p$ has $4-1 = 3$ zeros on $1 \leq \abs{z} \leq 2$.
+Thus $p$ has $4-1 = \mathbf{3}$ **zeros** on $1 \leq \abs{z} \leq 2$.
 
 $\qed$
 
