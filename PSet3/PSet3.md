@@ -151,8 +151,11 @@ Note that if $w$ is a pole of order $\ell$, we can explicitly write
 $$
 P_w(z) = {\alpha_1 \over z-w} + {\alpha_2 \over (z-w)^2} + \cdots + {\alpha_\ell \over (z-w)^\ell}
 $$
+for some constants $\alpha_i \in \CC$,
 and thus equation the first equation expresses $f$ in terms of its partial fraction decomposition.
 
+Thus if $a$ is a simple root of $Q(z)$, it is a simple pole of $f$, and thus we have $P_a(z) = {\alpha_1 \over z-a}$.
+Since we can write $f(z) = P_\infty(z) + P_a(z) + \cdots$ where none of the remaining terms involve $a$, it follows by definition that $\alpha_1 = \Res(f, z=a)$.
 
 
 ## 4
