@@ -507,6 +507,27 @@ Problem
 : Find the number of roots of $p(z) = 4z^4 - 6z + 3$ in $\abs{z} < 1$ and
 $1 < \abs{z} < 2$ respectively.
 
+For $\abs{z} < 1$, take $f(z) = -6z$ and $g(z) = z^4+3$, noting that $f+g = p$.
+Using the maximum modulus principal, we know that the max/mins of $f, g$ occur on $\abs{z} = 1$, on which we have
+$$
+\abs{g(z)} = 4 < 6 = \abs{f(z)}
+,$$
+
+so Rouche's theorem applies and both $p$ and $f$ have the same number of zeros.
+Since $f$ clearly has **one** zero, $p$ has one zero in this region.
+
+Now consider $\abs{z} < 2$ and set $f(z) = z^4$ and $g(z) = -6z+3$.
+By a similar argument, we have
+$$
+\abs{g(z)} = 15 < 16 = \abs{f}
+$$
+on $\abs{z} = 2$, and thus $f$ and $p$ have the same number of zeros in this region.
+Since $f$ has **four** zeros here, so does $p$.
+
+Thus $p$ has $4-1 = 3$ zeros on $1 \leq \abs{z} \leq 2$.
+
+$\qed$
+
 ## 12
 
 Problem
