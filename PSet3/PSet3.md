@@ -183,11 +183,24 @@ for infinitely many points $z_n$ with $\lim_{n\to\infty} z_n = 0$.
 
 ### Solution
 
-Toward a contradiction, suppose $f$ is analytic on $\CC\setminus \theset{0}$, then $g(z) \definedas 1/f(z)$ is analytic on $\CC\setminus \theset{0}$ as well.
-Since the points $z_n$ are zeros of $f$, they become poles of $g$, which by definition means that $\lim_{z\to z_n} g(z) = \infty$ for every $n$.
-Thus there is some open set $U\subset \CC\setminus\theset{0}$ and some 
+We first note that $z=0$ is in fact a singularity of $f$, since the zeros of analytic functions are isolated.
+Noting that since analytic functions are continuous, we have
+$$
+0 = \lim_{n\to\infty}f(z_n) = f(\lim_{n\to\infty} z_n) = f(0)
+,$$
+and so $z=0$ can not be a pole because (by definition) this would force $\lim_{z\to 0} \abs{f(z)} = \infty$.
 
+Similarly, $z=0$ can not be removable, since the function
+$$
+g(z) =
+\begin{cases}
+0 & z=0
+f(z) & \text{otherwise}
+\end{cases}
+$$
+defines an analytic continuation of $f$, which in particular would be an analytic function with non-isolated zeros, again a contradiction.
 
+$\qed$
 
 ## 5
 
