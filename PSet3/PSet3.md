@@ -167,6 +167,8 @@ Thus as before, $\alpha_1 = \Res(f(z), a)$, and now $\alpha_2 = \Res((z-a)f(z), 
 P_a(z) = { \Res(f(z), a) \over z-a} + {\Res((z-a)f(z), a) \over (z-a)^2}
 .\end{align*}
 
+$\qed$
+
 ## 4
 
 Problem
