@@ -162,7 +162,10 @@ P_a(z) = { \Res(f(z), a) \over z-a}
 where we can note that here $\Res(f(z), a) = {P(a) \over Q'(a)}$.
 
 Similarly, if now $a$ is a root of multiplicity 2 of $Q(z)$, $a$ is a pole of order 2 of $f$ and $P_a(z) = {\alpha_1 \over z-a} + {\alpha_2 \over (z-a)^2}$.
-Thus as before, $\alpha_1 = \Res(f(z), a)$, and now $\alpha_2 = \Res((z-a)f(z), a)$
+Thus as before, $\alpha_1 = \Res(f(z), a)$, and now $\alpha_2 = \Res((z-a)f(z), a)$, and we have
+\begin{align*}
+P_a(z) = { \Res(f(z), a) \over z-a} + {\Res((z-a)f(z), a) \over (z-a)^2}
+.\end{align*}
 
 ## 4
 
