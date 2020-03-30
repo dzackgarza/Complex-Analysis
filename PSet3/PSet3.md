@@ -183,15 +183,7 @@ for infinitely many points $z_n$ with $\lim_{n\to\infty} z_n = 0$.
 
 ### Solution
 
-It suffices to show that $z_0 = 0$ is neither a pole nor a removable singularity, and equivalently $z_0 =
-
-1. $\lim_{z\to 0}f(z) \neq \infty$
-
-2. $\abs{f(z)}$ is not bounded in any neighborhood $D_\eps(z_0)$.
-
-
-Supposing that $z=0$ was a pole of $f$, $\lim_{z\to 0}f(z) = \infty$, and thus $\lim_{z\to\infty} 1/f(z) = \infty$ and $z=\infty$ is a pole of $1/f$.
-But this would mean that for every $N$
+Let $g(z) = 1/f(z)$; then $g(z_n) = \infty$ and it suffices to show that $z=0$ is an essential singularity for $g$.
 
 ## 5
 
