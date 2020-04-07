@@ -154,14 +154,14 @@ $$
 for some constants $\alpha_i \in \CC$,
 and thus the first equation expresses $f$ in terms of its partial fraction decomposition.
 
-Thus if $a$ is a simple root of $Q(z)$, it is a simple pole of $f$, and thus we have $P_a(z) = {\alpha_1 \over z-a}$.
+Thus if $a$ is a simple root of $Q(z)$, it is a simple pole of $f$, and thus we have $P_a(z) = {\alpha_1 \over z-a}$, which consists of a single term.
 Since we can write $f(z) = P_\infty(z) + P_a(z) + \cdots$ where none of the remaining terms involve $a$, it follows by definition that $\alpha_1 = \Res(f, a)$ and so
 \begin{align*}
 P_a(z) = { \Res(f(z), a) \over z-a}
 ,\end{align*}
-where we can note that here $\Res(f(z), a) = {P(a) \over Q'(a)}$.
+where we can use a known formula to express $\Res(f(z), a) = {P(a) \over Q'(a)}$.
 
-Similarly, if now $a$ is a root of multiplicity 2 of $Q(z)$, $a$ is a pole of order 2 of $f$ and $P_a(z) = {\alpha_1 \over z-a} + {\alpha_2 \over (z-a)^2}$.
+Similarly, if now $a$ is a root of multiplicity 2 of $Q(z)$, $a$ is a pole of order 2 of $f$ and $P_a(z) = {\alpha_1 \over z-a} + {\alpha_2 \over (z-a)^2}$ with precisely two terms.
 Thus as before, $\alpha_1 = \Res(f(z), a)$, and now $\alpha_2 = \Res((z-a)f(z), a)$, and we have
 \begin{align*}
 P_a(z) = { \Res(f(z), a) \over z-a} + {\Res((z-a)f(z), a) \over (z-a)^2}
