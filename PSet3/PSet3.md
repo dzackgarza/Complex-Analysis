@@ -410,12 +410,12 @@ $$
 g(z) \definedas a_n z^n
 .$$
 
-Noting that polynomials are entire, $f, g$ are nonzero by assumption, and
+Noting that polynomials are entire, $f, g$ are nonzero by assumption, and fixing $\abs{z} = R > 1$, we have
 \begin{align*}
 \abs{f - g}
 &= \abs{ a_{n-1} z^{n-1}  + \cdots + a_1 z + a_0 }  \\
 &= \abs{ a_{n-1} z^{n-1}  + \cdots + a_1 z + a_0 + a_{n}z^n - a_{n}z^n }  \\
-&\leq \abs{ a_{n-1} z^{n-1}  + \cdots + a_1 z + a_0 + a_{n}z^n } + \abs{ -a_{n}z^n }  \quad\quad \text{ by the triangle inequality, for } \abs{z} > 1 (?) \\
+&\leq \abs{ a_{n-1} z^{n-1}  + \cdots + a_1 z + a_0 + a_{n}z^n } + \abs{ -a_{n}z^n }  \quad \text{ by the triangle inequality} \\
 &= \abs{f} + \abs{g}
 \end{align*}
 
@@ -434,7 +434,7 @@ $$
 z\in \CC\setminus \bar{D_r}(0) \implies \abs{f(z)} > \abs{f(0)}
 $$
 where $D_r(0)$ is an open disc of radius $r$ about $z=0$.
-Then $\abs{g(z)} < \abs{g(0)}$ for every such $z$.
+Then by inverting, $\abs{g(z)} < \abs{g(0)}$ for every such $z$.
 
 Noting that $\bar{D_r}(0)$ is closed and bounded and thus compact by Heine-Borel, $g$ attains a global maximum in the interior $D_r^\circ$.
 But by the maximum modulus principle, this forces $g$ to be constant, and since $g = {1 \over f}$, it must also be true that $f$ is constant.
