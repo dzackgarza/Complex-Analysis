@@ -433,14 +433,15 @@ Then $g(z) \definedas 1/f(z)$ is non-constant and holomorphic on $\CC$.
 
 Using the fact that $\lim_{z\to\infty} f(z) = \infty$ for any polynomial $f$, pick $R$ large enough such that
 $$
-\abs{z} > R \implies \abs{f(z)} > \abs{f(0)}
+\abs{z} \geq R \implies \abs{f(z)} > \abs{f(0)}
 ,$$
-then by inverting,
+which inverted yields,
 $$
-\abs{z} > R \implies \abs{g(z)} < \abs{g(0)}
+\abs{z} \geq R \implies \abs{g(z)} < \abs{g(0)}
 .$$
 
-Noting that $\bar{D_R}(0)$ is closed, bounded (by the argument above), and thus compact by Heine-Borel, $g$ attains a maximum in the interior $D_r^\circ$.
+Noting that $S_R \definedas \theset{\abs{z} \geq R }$ is closed (as the complement of the open set $\theset{\abs{z} < R}$), bounded (by the argument above), and thus compact by Heine-Borel, $g$ attains a maximum on $S_R$.
+
 But by the maximum modulus principle, this forces $g$ to be constant, and since $g = {1 \over f}$, it must also be true that $f$ is constant.
 
 $\qed$
