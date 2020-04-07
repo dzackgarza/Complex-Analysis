@@ -422,6 +422,8 @@ Noting that polynomials are entire, $f, g$ are nonzero by assumption, and fixing
 the conditions of Rouche's theorem apply and $f, g$ have the same number of roots.
 Since $g$ has precisely $n$ roots, $f$ does as well.
 
+> This is much simpler than other proofs out there, so I suspect something is slightly wrong but I couldn't sort out what it was.
+
 $\qed$
 
 ### Solution (Maximum Modulus Principle)
@@ -429,14 +431,14 @@ $\qed$
 Toward a contradiction, suppose $f$ is non-constant and has *no* zeros.
 Then $g(z) \definedas 1/f(z)$ is non-constant and holomorphic on $\CC$.
 
-Using the fact that $\lim_{z\to\infty} f(z) = \infty$ for any polynomial $f$, pick $r$ large enough such that
+Using the fact that $\lim_{z\to\infty} f(z) = \infty$ for any polynomial $f$, pick $R$ large enough such that
 $$
-z\in \CC\setminus \bar{D_r}(0) \implies \abs{f(z)} > \abs{f(0)}
+z\in \CC\setminus \bar{D_R}(0) \implies \abs{f(z)} > \abs{f(0)}
 $$
-where $D_r(0)$ is an open disc of radius $r$ about $z=0$.
+where $D_R(0)$ is an open disc of radius $r$ about $z=0$.
 Then by inverting, $\abs{g(z)} < \abs{g(0)}$ for every such $z$.
 
-Noting that $\bar{D_r}(0)$ is closed and bounded and thus compact by Heine-Borel, $g$ attains a global maximum in the interior $D_r^\circ$.
+Noting that $\bar{D_R}(0)$ is closed, bounded (by the argument above), and thus compact by Heine-Borel, $g$ attains a global maximum in the interior $D_r^\circ$.
 But by the maximum modulus principle, this forces $g$ to be constant, and since $g = {1 \over f}$, it must also be true that $f$ is constant.
 
 $\qed$
