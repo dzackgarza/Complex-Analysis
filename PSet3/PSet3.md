@@ -405,7 +405,11 @@ Theorem (Rouche)
 
 We'll also use without proof the fact that the function $h(z) = z^n$ has precisely $n$ zeros (counted with multiplicity).
 
-Suppose $f(z) = a_n z^n + \cdots + a_1 z + a_0$ where $a_n \neq 0$ and define $g(z) = a_n z^n$.
+Suppose $f(z) = a_n z^n + \cdots + a_1 z + a_0$ where $a_n \neq 0$ and define
+$$
+g(z) \definedas a_n z^n
+.$$
+
 Noting that polynomials are entire, $f, g$ are nonzero by assumption, and
 \begin{align*}
 \abs{f - g}
@@ -415,7 +419,8 @@ Noting that polynomials are entire, $f, g$ are nonzero by assumption, and
 &= \abs{f} + \abs{g}
 \end{align*}
 
-the conditions of Rouche's theorem apply and $f$ has precisely $n$ roots.
+the conditions of Rouche's theorem apply and $f, g$ have the same number of roots.
+Since $g$ has precisely $n$ roots, $f$ does as well.
 
 $\qed$
 
