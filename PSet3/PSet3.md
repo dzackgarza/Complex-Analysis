@@ -473,12 +473,9 @@ f(z) &= f(x+iy) \\
 &\subset \RR \quad\text{by assumption}
 ,\end{align*}
 
-which must hold for every $x+iy \in \gamma$.
+where the second parenthesized term must vanish for all $x+iy \in \gamma$,
 
-and so we must have $c_1 y = 0 \implies c_1 = 0$.
-The same argument applies to further terms in the expansion, so we in fact have $c_i = 0$ for every $i \geq 1$.
-
-But this says $f(z) = c_0$ for an arbitrary $z$, i.e. $f$ is constant.
+But since there is at least one $z\in \gamma$ with $y\neq 0$, this forces $c_1 = c_2 = \cdots = 0$, and thus $f(z) = c_0$ must be constant.
 
 $\qed$
 
