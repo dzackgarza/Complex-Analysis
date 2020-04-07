@@ -456,12 +456,14 @@ $D$ with interior in $D$.
 
 ### Solution
 
-Since $f$ is analytic in $D$ (wlog assuming $0\in D$ by translation), take its Laurent series expansion about $z=0$:
+Without loss of generality, assume $0\in D$ (by considering the translate $f(z) - w$ if necessary) and $\gamma$ is not entirely contained in $\RR$ (by taking a homotopic curve).
+
+Since $f$ is analytic in $D$, we can write its Laurent series expansion about $z=0$:
 $$
 f(z) = c_0 + c_1 z + \cdots \quad \text{ for } z\in D
 .$$
 
-Without loss of generality, suppose that $\gamma$ is not entirely contained in $\RR$, so for $z \in \gamma$ we can write $z = x + iy$ where $y\neq 0$.
+For $z \in \gamma$ we can write $z = x + iy$ where $y\neq 0$.
 
 Then
 \begin{align*}
