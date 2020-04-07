@@ -220,7 +220,8 @@ However, we can expand $F(z) = \sum_{k=0}^\infty c_k {1 \over z^k}$.
 Since this is a Laurent expansion for $F$ about $z=0$, which is a pole of order $N$, we must in fact have
 $F(z) = \sum_{k=0}^N c_k {1 \over z_k}$, i.e. there are only $N$ terms in this expansion.
 
-This implies that $f(z) = \sum_{k=0}^N c_k z^k$, making $f$ a polynomial.
+This implies that $f(z) = \sum_{k=0}^N c_k z^k$, which has finitely many terms and is thus a polynomial.
+
 
 $\qed$
 
@@ -249,7 +250,7 @@ $$
 $$
 where the subscripts denote the complex and real logarithms respectively, we have
 $$
-\log\abs{1 - z} = \Re\qty{\log_\CC \qty{1-z}}
+\log_\CC\abs{1 - z} = \Re\qty{\log_\CC \qty{1-z}}
 .$$
 
 So it suffices to show that $\int_{S^1} f(z) ~dz = 0$.
@@ -263,7 +264,14 @@ The singularity is removable because we have
 &= -i
 ,\end{align*}
 
-so the modified function $F$ defined by $F(0) = -i$ and $F(z) = f(z)$ otherwise is holomorphic, making $z=0$ removable.
+so the modified function
+\begin{align*}
+F(z) = \begin{cases}
+-i & z = 0 \\
+f(z) & \text{else}
+\end{cases}
+\end{align*}
+is holomorphic, making $z=0$ removable.
 
 Since $f$ is also analytic, the Cauchy-Goursat theorem applies and $\int_{S^1} f = 0$.
 
