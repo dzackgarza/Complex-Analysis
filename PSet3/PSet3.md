@@ -496,7 +496,7 @@ I &\definedas
 &= i \oint_{S^1} \frac{z}{z^4 - \qty{2+4a}z^2 + 1} ~dz \\
 &= \frac i 2 \oint_{2\cdot S^1} \frac{1}{u^2 - (2+4a)u + 1} ~du \quad \quad \text{using } u = z^2, \frac 1 2 ~du = z~dz \\
 &\definedas \frac i 2 \oint_{2\cdot S^1} \frac{1}{f_a(u)} ~du \\
-&= \frac i 2 \cdot 2\pi i \cdot \sum \Res_{u=r_i} \frac{1}{f_a(u)}
+&= \frac i 2 \cdot 2\pi i \cdot \sum \Res\qty{\frac{1}{f_a(u)}, {u=r_i} }
 ,\end{align*}
 
 where $2\cdot S^1$ denotes the contour wrapping around the unit circle twice and $r_i$ denote the poles contained in the region bounded by $S^1$.
