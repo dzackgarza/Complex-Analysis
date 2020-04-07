@@ -213,11 +213,12 @@ $f$ is a polynomial.
 
 Since $f$ is entire, it is analytic on $\CC$, so there is an expansion $f(z) = \sum_{k=0}^\infty c_k z^k$ that converges to $f$ everywhere.
 Let $F(z) = f(1/z)$; then $\lim_{z\to 0} F(z) = \infty$ by assumption.
-This also implies that since $z=\infty$ is a pole of $f$, $z=0$ is a pole of $F$, say of order $N$.
+
+This also implies that since $z=\infty$ is a pole of $f$, the point $z=0$ is a pole of $F$, say of order $N$.
 
 However, we can expand $F(z) = \sum_{k=0}^\infty c_k {1 \over z^k}$.
 Since this is a Laurent expansion for $F$ about $z=0$, which is a pole of order $N$, we must in fact have
-$F(z) = \sum_{k=0}^N c_k {1 \over z_k}$.
+$F(z) = \sum_{k=0}^N c_k {1 \over z_k}$, i.e. there are only $N$ terms in this expansion.
 
 This implies that $f(z) = \sum_{k=0}^N c_k z^k$, making $f$ a polynomial.
 
