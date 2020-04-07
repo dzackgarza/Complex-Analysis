@@ -184,11 +184,10 @@ for infinitely many points $z_n$ with $\lim_{n\to\infty} z_n = 0$.
 ### Solution
 
 We first note that $z=0$ is in fact a singularity of $f$, since the zeros of analytic functions are isolated.
-Noting that since analytic functions are continuous, we have
-$$
-0 = \lim_{n\to\infty}f(z_n) = f(\lim_{n\to\infty} z_n) = f(0)
-,$$
-and so $z=0$ can not be a pole because (by definition) this would force $\lim_{z\to 0} \abs{f(z)} = \infty$.
+
+The point $z=0$ can not be a pole because (by definition) this would force $\lim_{z\to 0} \abs{f(z)} = \infty$.
+Explicitly, this would mean that for every $R > 0$, there would exist a $\delta > 0$ such that $z\in D_\delta(0) \implies \abs{f(z)} > R$.
+However, since $z_n \to 0$ and $f(z_n) = 0 < R$ for every $n$, every $D_\delta(0)$ contains a point $z_N$ that violates this condition.
 
 Similarly, $z=0$ can not be removable, since the function
 $$
