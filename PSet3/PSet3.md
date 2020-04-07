@@ -244,7 +244,11 @@ Let $I$ be the integral in question, then substituting $z = e^{i\theta}$ and ${d
 I &= \int_{S^1} {\log \abs{1 - z} \over iz} ~dz \definedas \Re\qty{ \int_{S^1} f(z)~dz }
 ,\end{align*}
 
-where $f(z) = \log(1-z)/iz$, $S^1$ is the unit circle in $\CC$, and since by definition
+where
+$$
+f(z) \definedas{\log(1-z) \over iz}
+,$$
+$S^1$ denotes the unit circle in $\CC$, and since by definition
 $$
 \log_\CC(z) = \log_\RR(\abs{z}) + i \arg(z)
 $$
@@ -268,7 +272,7 @@ so the modified function
 \begin{align*}
 F(z) = \begin{cases}
 -i & z = 0 \\
-f(z) & \text{else}
+f(z) & \text{otherwise}
 \end{cases}
 \end{align*}
 is holomorphic, making $z=0$ removable.
@@ -277,7 +281,7 @@ Since $f$ is also analytic, the Cauchy-Goursat theorem applies and $\int_{S^1} f
 
 ### Solution Part (b)
 
-> Not sure, possibly just a computation?
+> No clue how to relate these two!
 
 ## 7
 
