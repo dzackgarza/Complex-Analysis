@@ -398,7 +398,7 @@ Problem
 
 ### Solution (Rouche)
 
-We want to show that every $f \in \CC[x]$ has precisely $n$ roots, and we'll use the follow formulation of Rouche's theorem: \\
+We want to show that every $f \in \CC[x]$ has precisely $n$ roots, and we'll use the follow formulation of Rouche's theorem:
 
 Theorem (Rouche)
 : If $f, g$ are holomorphic on $D(z_0)$ with $f,g\neq 0$ and $\abs{f-g} < \abs f + \abs g$ on $\bd D(z_0)$, then $f$ and $g$ has the same number of zeros within $D$.
