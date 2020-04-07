@@ -638,6 +638,8 @@ $\qed$
 Problem
 : Prove that for $a> 0$, $z\tan z - a$ has only real roots.
 
+### Solution
+
 ## 14
 
 Problem
