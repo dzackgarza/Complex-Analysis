@@ -456,7 +456,10 @@ $D$ with interior in $D$.
 
 ### Solution
 
-Since $f$ is analytic in $D$ (wlog assuming $0\in D$ by translation), take its series expansion $f(z) = c_0 + c_1 z + \cdots$ for $z\in D$.
+Since $f$ is analytic in $D$ (wlog assuming $0\in D$ by translation), take its Laurent series expansion about $z=0$:
+$$
+f(z) = c_0 + c_1 z + \cdots \quad \text{ for } z\in D
+.$$
 
 Without loss of generality, suppose that $\gamma$ is not entirely contained in $\RR$, so for $z \in \gamma$ we can write $z = x + iy$ where $y\neq 0$.
 
