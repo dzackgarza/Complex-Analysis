@@ -436,9 +436,9 @@ $$
 z\in \CC\setminus \bar{D_R}(0) \implies \abs{f(z)} > \abs{f(0)}
 $$
 where $D_R(0)$ is an open disc of radius $r$ about $z=0$.
-Then by inverting, $\abs{g(z)} < \abs{g(0)}$ for every such $z$.
+Then by inverting, $\abs{g(z)} < \abs{g(0)}$ for every $\abs{z} > R$.
 
-Noting that $\bar{D_R}(0)$ is closed, bounded (by the argument above), and thus compact by Heine-Borel, $g$ attains a global maximum in the interior $D_r^\circ$.
+Noting that $\bar{D_R}(0)$ is closed, bounded (by the argument above), and thus compact by Heine-Borel, $g$ attains a maximum in the interior $D_r^\circ$.
 But by the maximum modulus principle, this forces $g$ to be constant, and since $g = {1 \over f}$, it must also be true that $f$ is constant.
 
 $\qed$
