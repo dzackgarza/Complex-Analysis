@@ -468,10 +468,12 @@ For $z \in \gamma$ we can write $z = x + iy$ where $y\neq 0$.
 Then
 \begin{align*}
 f(z) &= f(x+iy) \\
-&= c_0 + c_1(x+iy) + \cdots \\
-&= c_0 + c_1 x + i c_1 y + \cdots
+&= c_0 + c_1(x+iy) + c_2(x+iy)^2 + \cdots \\
+&= c_0  + \qty{c_1 x + c_2 x^2 + \cdots} + i\qty{c_1 y + c_2 y^2 + c_2 xy + \cdots} \\
 &\subset \RR \quad\text{by assumption}
 ,\end{align*}
+
+which must hold for every $x+iy \in \gamma$.
 
 and so we must have $c_1 y = 0 \implies c_1 = 0$.
 The same argument applies to further terms in the expansion, so we in fact have $c_i = 0$ for every $i \geq 1$.
