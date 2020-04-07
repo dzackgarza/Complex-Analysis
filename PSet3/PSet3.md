@@ -187,6 +187,7 @@ We first note that $z=0$ is in fact a singularity of $f$, since the zeros of ana
 
 The point $z=0$ can not be a pole because (by definition) this would force $\lim_{z\to 0} \abs{f(z)} = \infty$.
 Explicitly, this would mean that for every $R > 0$, there would exist a $\delta > 0$ such that $z\in D_\delta(0) \implies \abs{f(z)} > R$.
+
 However, since $z_n \to 0$ and $f(z_n) = 0 < R$ for every $n$, every $D_\delta(0)$ contains a point $z_N$ that violates this condition.
 
 Similarly, $z=0$ can not be removable, since the function
@@ -197,7 +198,8 @@ g(z) =
 f(z) & \text{otherwise}
 \end{cases}
 $$
-defines an analytic continuation of $f$, which in particular would be an analytic function with non-isolated zeros, again a contradiction.
+defines an analytic continuation of $f$.
+However, it is a theorem that the zeros of an analytic function are isolated, whereas every neighborhood of $z=0$ (which is a zero of $g$) contains infinitely many distinct zeros of the form $z_n$, a contradiction.
 
 $\qed$
 
