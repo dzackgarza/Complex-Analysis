@@ -344,11 +344,11 @@ f(z) \definedas \frac{z^{\alpha-1}}{z^3 + 1} \definedas {P(z) \over Q(z)}
 we find that only $z=r_2$ will contribute a term to $\int_\Gamma f$.
 Noting that each pole is simple of order 1, we have
 $$
-\res_{z = r_i} = {P(r_i) \over Q'(r_i)} = {r_i^{\alpha-1} \over 3r_i^2} = {r_i^{\alpha - 3} \over 3 }
+\res(f(z), {z = r_i}) = {P(r_i) \over Q'(r_i)} = {r_i^{\alpha-1} \over 3r_i^2} = {r_i^{\alpha - 3} \over 3 }
 $$
 We thus have
 \begin{align*}
-\res_{z = r_2} f(z)
+\res(f(z), z=r_2)
 &= \frac 1 3 { e^{i \pi (\alpha - 3) \over 3} } \\
 \implies \int_\Gamma f(z) ~dz
 &= {2\pi i \over 3} { e^{i \pi (\alpha - 3) \over 3} }
@@ -362,7 +362,7 @@ Along the imaginary axis, we can make the following change of variables:
 \begin{align*}
 \int_{R}^{0} f(iy) ~dy
 &= -\int_0^R {(iy)^{\alpha-1} \over (iy)^3 + 1} ~dy \\
-&= -\frac 1 i \int_0^R {t^{\alpha-1} \over t^3 + 1} ~dt \quad t = iz,~ dt = i~dz\\
+&= -\frac 1 i \int_0^R {t^{\alpha-1} \over t^3 + 1} ~dt \quad\quad\quad (t = iz,~ dt = idz)\\
 &= i I
 ,\end{align*}
 
@@ -372,13 +372,14 @@ We thus have
 \begin{align*}
 \res_{z = r_2} f(z)
 &= \int_\Gamma f = \int_0^R f + \int_{C_R} f + \int_{iR}^{0} f  \\
-&\converges{R\to\infty}\to I + 0 +iI = (1+i)I
+&\converges{R\to\infty}\to I + 0 +iI \\
+&= (1+i)I
 ,\end{align*}
 
 and so
 \begin{align*}
 I
-= { \res_{z = r_2} f(z) \over 1+i}
+= { \res(f(z), {z = r_2}) \over 1+i}
 = {2\pi i \over 3(1+i)} { e^{i \pi (\alpha - 3) \over 3} }
 .\end{align*}
 
