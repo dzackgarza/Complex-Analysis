@@ -645,7 +645,7 @@ We can extend Rouche's theorem in the following way: if $f = g+h$ with $\abs{g} 
 So we proceed by explicitly counting the number of real roots $Z_f$ of $f(z) = z\tan(z) - a$ on a certain arbitrary real interval, then extend that interval to a rectangle in $\CC$ and apply Rouche to show that there are still $Z_f$ zeros within the rectangle.
 This will imply that the only roots on that region are real, and in the limit as the length of the interval goes to infinity, this will remain true (since any potential root must fall within such a bounded rectangle).
 
-
+Let $f(z) = z\tan(z) - a$, $h(z) = z\tan(z)$, and $g(z) = a$.
 
 ## 14
 
