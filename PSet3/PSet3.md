@@ -485,6 +485,8 @@ Problem
 : For $a> 0$, evaluate
   $$\begin{aligned} \int_0^{\pi/2} \frac{d\theta}{a + \sin^2 \theta}\end{aligned}$$
 
+### Solution
+
 We have
 \begin{align*}
 I &\definedas
@@ -536,6 +538,8 @@ $\qed$
 Problem
 : Find the number of roots of $p(z) = 4z^4 - 6z + 3$ in $\abs{z} < 1$ and
 $1 < \abs{z} < 2$ respectively.
+
+### Solution
 
 For $\abs{z} < 1$, take $f(z) = -6z$ and $g(z) = z^4+3$, noting that $f+g = p$.
 Using the maximum modulus principal, we know that the max/mins of $f, g$ occur on $\abs{z} = 1$, on which we have
