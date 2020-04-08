@@ -645,6 +645,15 @@ We can extend Rouche's theorem in the following way: if $f = g+h$ with $\abs{g} 
 So we proceed by explicitly counting the number of real roots $Z_f$ of $f(z) = z\tan(z) - a$ on a certain arbitrary real interval, then extend that interval to a rectangle in $\CC$ and apply Rouche to show that there are still $Z_f$ zeros within the rectangle.
 This will imply that the only roots on that region are real, and in the limit as the length of the interval goes to infinity, this will remain true (since any potential root must fall within such a bounded rectangle).
 
+Fix some parameter $N\in \QQ$ (to be determined) and consider the interval $[-N\pi-\eps, N\pi+\eps]$ for some $0 < \eps \ll 1$.
+In this interval, we can compute $\sin(x) = 0 \iff x = 2k\pi$, yielding $2N+1$ zeros (including $x=0$), and thus $x\tan(x)$ has exactly $2N+1$ zeros here.
+
+We can also compute $\cos(x) = 0 \iff x = (2k+1)\pi$, yielding $2N$ zeros and thus $2N$ poles of $x\tan(x)$.
+
+Thus letting $\tilde Z_f, \tilde P_f$ denote the number of real zeros/poles of $f$, we have
+$$
+\tilde Z_f - \tilde P_f = (2N+1) - 2N = 1.
+$$
 > I couldn't get the inequalities to work! :(
 
 
